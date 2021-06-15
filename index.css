@@ -340,7 +340,7 @@ table {
     height:auto;
     text-align: center;
     Position: absolute;
-    top
+    top: 0px;
 }
 
 .Presentation1 p {
