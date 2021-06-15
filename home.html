@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Page d'accueil</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("navbar.html");</script>
+
+        <!--Content-->
+        <div id="container">
+            <div class="section center">
+                <div>
+                    <img id="fivegirls" src="Assets/home/fivegirls.svg">
+                </div>
+                <div id="motivation">
+                    <p class="centered blacker">
+                        BOOST TON<br>
+                        AUDACE<br>
+                        &
+                    </p>
+                    <div class="centered">
+                        <button id="join" class="h4 b_red c_white">
+                            Rejoins-nous >
+                        </button>
+                    </div>
+                    <p class="centered h5 c_brown join_desc">
+                        Débloquez plus de défis pour gagner en audace
+                    </p>
+                </div>
+            </div>
+            <div class="section">
+                <div id="planning" class="b_purple">
+                    <img id="title_planning" src="Assets/Home/planning.svg">
+                    <p class="h4 c_white">
+                        MasterClass<br>
+                        Golden
+                    </p>
+                    <p id="hour" class="h5 c_white"><span class="day">Mardi</span> : 19h-20h30</p>
+                </div>
+                <div id="project">
+                    <div id="woman" class="b_pink">
+                        <img src="Assets/Home/woman.svg">
+                    </div>
+                    <div id="wonders_project">
+                        <p class="h4">
+                            Projet positif d'<br>
+                            <span class="bold">Émilie Faillet</span>
+                        </p>
+                    </div>
+                    <div>
+                        <button id="discover" class="h4 b_black c_white">
+                            Découvrir >
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div id="daily" class="b_red c_white">
+                    <div class="title_section">
+                        <p class="h2">
+                            Défi du jour
+                        </p>
+                        <img src="Assets/Home/defi.svg">
+                    </div>
+                    <p class="h4">
+                        Post ton rêve sur les<br>réseaux
+                    </p>
+                    <p class="h5 defi_desc">
+                        Ton but aujourd’hui c’est de faire un post sur l’un de tes réseaux sociaux afin de dire à tout le monde quel est ton rêve
+                    </p>
+                    <button id="validate" class="h4 b_black c_white">
+                        Valider le défi >
+                    </button>
+                </div>
+                <img id="dream" src="Assets/Home/dream.svg">
+            </div>
+            <div class="section">
+                <div id="podcast" class="b_yellow c_white">
+                    <div class="title_section">
+                        <p class="h2">Dernier podcast</p>
+                        <img src="Assets/Home/music.svg">
+                    </div>
+                    <div class="row">
+                        <img src="Assets/Home/fatou.svg">
+                        <div class="column">
+                            <p class="h4">L’audace, cette<br>badass</p>
+                            <p class="h5">#2 Ose faire le premier pas</p>
+                            <img src="Assets/Home/sound.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div id="instagram" class="b_blue c_white">
+                    <div class="title_section">
+                        <p class="h2">Post instagram</p>
+                        <img src="Assets/Home/instagram.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div id="footer"></div>
+        <script>$("#footer").load("footer.html");</script>
+    </body>
+</html>

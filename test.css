@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: "Blacker Display ExtraBold";
+    src: url("/Fonts/Blacker-Display-ExtraBold-trial.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Blacker Display Regular";
+    src: url("/Fonts/Blacker-Display-Regular-trial.ttf") format("truetype");
+}
+
+.h1 {/* WEB/H1 - Barlow Condensed - 48 - Bold */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.h2 {/* WEB/H2 - Barlow Condensed - 40 - Bold */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.h3 {/* WEB/H3 - Barlow Condensed - 32 - Bold */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.h4 {/* WEB/H4 - Barlow Condensed - 24 - Regular */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.h5 {/* WEB/H5 - Barlow Condensed - 24 - Regular */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.h6 {/* WEB/H6 - Barlow Condensed - 8 - Regular */
+    font-family: "Barlow Condensed Regular", serif;
+    font-weight: 400;
+    font-size: 8px;
+}
+
+/* COLOR */
+.b_blue{background: #0625BA;}
+.b_red{background: #FF4602;}
+.b_brown{background: #B06902;}
+.b_pink{background: #FF92C6;}
+.b_yellow{background: #FBB104;}
+.b_purple{background: #973FBD;}
+.b_green{background: #798B22;}
+.b_beige{background: #EEDFB7;}
+.b_black{background: #000000;}
+.b_white{background: #FAFAFA;}
+.b_grey1{background: #333333;}
+.b_grey2{background: #4F4F4F;}
+.b_Grey3{background: #828282;}
+.b_grey4{background: #BDBDBD;}
+.b_grey5{background: #E0E0E0;}
+.b_grey6{background: #F2F2F2;}
+
+.c_blue{color: #0625BA;}
+.c_red{color: #FF4602;}
+.c_brown{color: #B06902;}
+.c_pink{color: #FF92C6;}
+.c_yellow{color: #FBB104;}
+.c_purple{color: #973FBD;}
+.c_green{color: #798B22;}
+.c_beige{color: #EEDFB7;}
+.c_black{color: #000000;}
+.c_white{color: #FAFAFA;}
+.c_grey1{color: #333333;}
+.c_grey2{color: #4F4F4F;}
+.c_Grey3{color: #828282;}
+.c_grey4{color: #BDBDBD;}
+.c_grey5{color: #E0E0E0;}
+.c_grey6{color: #F2F2F2;}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+
+#footer {
+    position: sticky;
+    bottom: 0px;
+    z-index: 9999;
+}

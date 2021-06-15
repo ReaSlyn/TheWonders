@@ -1,0 +1,60 @@
+.close{
+    position: absolute;
+    left: 8.51%;
+    right: 85.11%;
+    top: 2.96%;
+    bottom: 94.09%;
+}
+
+.abonnement {
+    padding-left: 72px;
+    top: 32px;
+}
+
+.logo {
+    position: absolute;
+    width: 233px;
+    height: 50.72px;
+    left: 72px;
+    top: 80.29px;
+    transform: rotate(-1.3deg);
+}
+
+.contenu_abonnementt {
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Marche pas Xd */
+.abonne_toi{
+    font-weight: 700 !important;
+}
+
+.avis {
+    display: flex;
+    flex-direction: row;
+}
+
+.avis:nth-child(1) {
+    margin-left: 8px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.liste_abonnement li {
+    display: flex;
+    flex-direction: row;
+}
+
+.liste_abonnement svg {
+    margin-left: 8px;
+}
+
+.formule {
+    display: flex;
+    flex-direction: row;
+}
