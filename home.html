@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script src="js/insta_token.js"></script>
     </head>
     <body>
         <!--Navbar-->
@@ -103,8 +104,12 @@
                 <div id="instagram" class="b_blue c_white">
                     <div class="title_section">
                         <p class="h2">Post instagram</p>
-                        <img src="Assets/Home/instagram.svg">
+                        <img id="instagram_logo" src="Assets/Home/instagram.svg">
                     </div>
+                    <div id="instafeed"></div>
+                    <button id="validate" class="h4 b_black c_white">
+                        Valider le défi >
+                    </button>
                 </div>
             </div>
         </div>
@@ -112,5 +117,8 @@
         <!--Footer-->
         <div id="footer"></div>
         <script>$("#footer").load("footer.html");</script>
+
+        <!-- Script -->
+        <script type="text/javascript" src="js/instafeed.min.js"></script>
     </body>
 </html>

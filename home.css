@@ -342,10 +342,26 @@ button {
     margin-top: 8px;
 }
 
-#instagram :nth-child(1) {
+#instagram :nth-child(1) p {
     margin-top: 8px;
 }
 
-#instagram :nth-child(2){
+#instagram_logo {
     margin-right: 32px;
+}
+
+#instafeed {
+    display: flex;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#instafeed img {
+    width: 112px;
+    margin-right: 8px;
+}
+
+#instafeed::-webkit-scrollbar {
+    display: none;
 }

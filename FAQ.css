@@ -122,6 +122,7 @@ table {
 .c_grey4{color: #BDBDBD;}
 .c_grey5{color: #E0E0E0;}
 .c_grey6{color: #F2F2F2;}
+.c_grey7{color: #3c3c439c;}
 
 #navbar {
     position: sticky;
@@ -141,7 +142,12 @@ table {
     margin-left: 32px;
     width: 1,20vw;
     height: 22,555vh;
-
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+.Text{
+    margin-top: 3px;
 }
 .banner{
     margin-top: 32px;
@@ -154,4 +160,30 @@ table {
     flex-direction: column;
     justify-content: space-between;
     gap: 8px;
+}
+
+.Q1{
+    background-color:#0624ba80 ;
+    margin-top: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 1,20vw;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding:  8px 0px 8px 8px;
+
+}
+
+.Text_Q1{
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+
 }
