@@ -134,8 +134,8 @@ table {
     position: sticky;
     bottom: 0px;
     z-index: 9999;
-}
 
+}
 .searchingbar{
     background-color: #76768015;
     margin-right: 32px;
@@ -168,7 +168,7 @@ table {
     margin-left: 32px;
     margin-right: 32px;
     width: 1,20vw;
-    height: 13vh;
+    height: 7,31vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
