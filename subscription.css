@@ -1,7 +1,15 @@
 body {
     background-image: url(Assets/Subscription/background.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    z-index: -1;
+}
+
+#form {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: -2;
 }
 
 #container {
@@ -33,6 +41,7 @@ body {
 }
 
 .avis {
+    margin-top: 8px;
     display: flex;
     flex-direction: row;
 }
@@ -44,6 +53,11 @@ body {
 .stars {
     display: flex;
     flex-direction: row;
+    margin-left: 8px;
+}
+
+.liste_abonnement {
+    margin-top: 16px;
 }
 
 .liste_abonnement li {
@@ -55,8 +69,12 @@ body {
     margin-left: 8px;
 }
 
+.liste_abonnement > * {
+    margin-top: 8px;
+}
+
 .formule {
-    margin-top: 40px;
+    margin-top: 4.92vh;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -72,7 +90,7 @@ body {
 }
 
 .big {
-    width: 100px;
+    width: 115px;
     height: 144px;
 }
 
@@ -85,6 +103,5 @@ body {
 }
 
 .italic {
-    width: 100px;
     font-style: italic;
 }
