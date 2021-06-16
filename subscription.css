@@ -1,29 +1,30 @@
-.close{
-    position: absolute;
-    left: 8.51%;
-    right: 85.11%;
-    top: 2.96%;
-    bottom: 94.09%;
+body {
+    background-image: url(Assets/Subscription/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.abonnement {
-    padding-left: 72px;
-    top: 32px;
-}
-
-.logo {
-    position: absolute;
-    width: 233px;
-    height: 50.72px;
-    left: 72px;
-    top: 80.29px;
-    transform: rotate(-1.3deg);
-}
-
-.contenu_abonnementt {
-    margin: 32px;
+#container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#close {
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    background: none;
+}
+
+#title {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.content_sub {
+    margin: 0px 32px 32px 32px;
 }
 
 /* Marche pas Xd */
@@ -55,6 +56,35 @@
 }
 
 .formule {
+    margin-top: 40px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.small {
+    width: 80px;
+    height: 120px;
+}
+
+.small div {
+    margin-top: 20px;
+}
+
+.big {
+    width: 100px;
+    height: 144px;
+}
+
+.big div {
+    margin-top: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.italic {
+    width: 100px;
+    font-style: italic;
 }

@@ -34,20 +34,22 @@
 }
 
 .searchingbar{
+    display: flex;
     margin-left: 32px;
+    
 }
 
 .searchingbar input {
-    background: #76768015;
     margin-top: 8px;
     margin-right: 32px;
-    width: 1,20vw;
-    height: 22,555vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    padding-left: 40px;
     outline: none;
     border: 0;
+    width: 100%;
+    height: 36px;
+    background-image: url(Assets/FAQ/search.svg);
+    background-repeat: no-repeat;
+    background-position: 8px center;
 }
 
 .Text{
@@ -55,24 +57,20 @@
 }
 
 .banner{
-    margin-top: 8px;
-    margin-right: 32px;
-    margin-left: 32px;
-    width: 1,20vw;
-    height: 2,49vh;
+    margin: 8px 32px 0px 32px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 8px;
+}
+
+.banner > * {
+    margin-top: 8px;
 }
 
 .Q1{
     background-color:#0624ba80 ;
     margin: 16px 32px 16px 32px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 32px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -82,7 +80,7 @@
 .Text_Q1{
     margin-top: 8px;
     margin-left: 8px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -94,4 +92,8 @@
     float: right;
     margin-top: 8px;
     margin-right: 8px;
+}
+
+.Q1:nth-child(3) {
+    width: 100px;
 }

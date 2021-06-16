@@ -4,10 +4,15 @@
 }
 
 .loader {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
     background-color: #0625BA;
-    animation: Chargement 5.8s ease forwards;
+    animation: Chargement 3s ease forwards;
     overflow: hidden;
 }
 
@@ -18,17 +23,17 @@
     left: 30px;
     top: 371px;
     z-index: 999;
-    animation: Chargement 5.8s ease forwards;
+    animation: Chargement 3s ease forwards;
 }
 
 @keyframes Chargement {
     0% {
         opacity: 100%;
+        visibility: visible;
     }
     100% {
         opacity: 0%;
-        display: none;
-        position: absolute;
+        visibility: hidden;
     }
 }
 
@@ -152,7 +157,7 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    Position: absolute;
+    position: absolute;
     top: 0px;
     object-fit: cover;
     object-position: center top;
@@ -234,7 +239,7 @@
 
 .Presentation3 img {
     position: absolute;
-    height: auto;
+    height: 100%;
     left: 32px;
     right: 72px;
     top: 160px;
@@ -252,7 +257,7 @@
 /* Présentation 4 */
 
 .Presentation4 img  {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     position: absolute;
     object-fit: cover;
@@ -276,7 +281,7 @@
 /* Présentation 5 */
 
 .Presentation5 img  {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     position: absolute;
     object-fit: cover;
@@ -297,4 +302,12 @@
     left: 32px;
     right: 32px;
     bottom: 74px;
+}
+
+.swiper-slide {
+    width: 100% !important;
+}
+
+.swiper-pagination-bullet {
+    background: white !important;
 }
