@@ -1,14 +1,15 @@
 .searchingbar{
-    color: #76768015;
+    background: #76768015;
     margin-top: 8px;
     margin-right: 32px;
     margin-left: 32px;
     width: 1,20vw;
     height: 22,555vh;
+    display: flex;
+    align-items: center;
 }
-
-.search-txt{
-
+.input_search{
+    
 }
 .Text{
     margin-top: 3px;
