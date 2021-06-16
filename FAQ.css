@@ -1,3 +1,45 @@
+nav {
+    background-color: #0625BA;
+    width: 100%;
+    height: 92px;
+    position: sticky;
+}
+
+#status_bar {
+    width: 100%;
+    height: 44px;
+    margin-top: 0px;
+}
+
+#time {
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+#status {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+}
+
+#flex_nav {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+#logo {
+    width: 206px;
+    height: 20px;
+}
+
+.right {
+    margin-right: 20px;
+}
+
 .searchingbar{
     background: #76768015;
     margin-top: 8px;
@@ -9,7 +51,7 @@
     align-items: center;
 }
 .input_search{
-    
+
 }
 .Text{
     margin-top: 3px;
