@@ -1,10 +1,3 @@
-nav {
-    background-color: #0625BA;
-    width: 100%;
-    height: 92px;
-    position: sticky;
-}
-
 #status_bar {
     width: 100%;
     height: 44px;
@@ -41,23 +34,26 @@ nav {
 }
 
 .searchingbar{
+    margin-left: 32px;
+}
+
+.searchingbar input {
     background: #76768015;
     margin-top: 8px;
     margin-right: 32px;
-    margin-left: 32px;
     width: 1,20vw;
     height: 22,555vh;
     display: flex;
+    flex-direction: row;
     align-items: center;
-}
-
-.input_search{
-
+    outline: none;
+    border: 0;
 }
 
 .Text{
     margin-top: 3px;
 }
+
 .banner{
     margin-top: 8px;
     margin-right: 32px;
@@ -73,27 +69,29 @@ nav {
 
 .Q1{
     background-color:#0624ba80 ;
+    margin: 16px 32px 16px 32px;
     margin-top: 16px;
     margin-bottom: 16px;
     margin-left: 32px;
-    margin-right: 32px;
-    width: 1,20vw;
-    height: 7,31vh;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding:  8px 0px 8px 8px;
+    justify-content: space-between;
 
 }
 
 .Text_Q1{
     margin-top: 8px;
     margin-left: 8px;
-    margin-right: 32px;
     margin-bottom: 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 8px;
 
+}
+
+.arrow {
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
 }

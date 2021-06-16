@@ -79,3 +79,7 @@ table {
     text-align: center;
     justify-items: center;
 }
+
+.active {
+    opacity: 1;
+}
