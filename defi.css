@@ -1,0 +1,87 @@
+#background {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.defi {
+    width: 100%;
+    height: 170px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.defi > * {
+    margin-left: 8px;
+}
+
+.defi :nth-child(1).h3{
+    margin-top: 8px;
+}
+
+.defi :nth-child(2).h3{
+    margin-top: 4px;
+}
+
+.desc  {
+    margin-top: 4px;
+    width: 175px;
+}
+
+.defi :nth-child(3) {
+    margin-top: 8px;
+}
+
+.defi :nth-child(4) {
+    margin-top: 4px;
+}
+
+.defi :nth-child(5) {
+    margin-top: 8px;
+}
+
+.time_left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.time_left img {
+    margin-left: 4px
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.button {
+    font-size: 16px;
+    padding: 4px 40px 4px 8px;
+    background-image: url(Assets/Defi/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 90%;
+}
+
+#daily {
+    background-image: url(Assets/Defi/daily.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#weekly {
+    background-image: url(Assets/Defi/weekly.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#duo {
+    background-image: url(Assets/Defi/duo.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}

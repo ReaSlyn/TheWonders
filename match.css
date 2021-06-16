@@ -1,0 +1,23 @@
+body {
+    background-image: url(Assets/Match/background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+}
+
+.title {
+    margin: 16px 0px 0px 16px;
+    margin-bottom: 40px;
+}
+
+.matching {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 68vh;
+    margin-bottom: 0px;
+}
+
+.matching img {
+    width: 100%;
+}
