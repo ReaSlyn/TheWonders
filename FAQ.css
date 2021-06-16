@@ -33,7 +33,7 @@ nav {
 
 #logo {
     width: 206px;
-    height: 20px;
+    height: 16px;
 }
 
 .right {
@@ -50,9 +50,11 @@ nav {
     display: flex;
     align-items: center;
 }
+
 .input_search{
 
 }
+
 .Text{
     margin-top: 3px;
 }
