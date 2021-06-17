@@ -102,11 +102,26 @@ button {
 #navbar {
     position: sticky;
     top: -1px;
+    width: 100%;
     z-index: 9999;
 }
 
 #footer {
-    position: sticky;
+    position: fixed;
     bottom: -1px;
+    width: 100%;
     z-index: 9999;
+}
+
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    padding-bottom: 63px !important;
 }
