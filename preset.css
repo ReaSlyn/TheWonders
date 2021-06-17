@@ -50,7 +50,7 @@
 }
 
 .h6 {/* WEB/H6 - Barlow Condensed - 8 - Regular */
-    font-family: "Barlow Condensed Regular", serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
     font-size: 8px;
 }
@@ -69,7 +69,7 @@
 .b_green{background: #798B22;}
 .b_beige{background: #EEDFB7;}
 .b_black{background: #000000;}
-.b_white{background: #FAFAFA;}
+.b_white{background: #FFFFFF;}
 .b_grey1{background: #333333;}
 .b_grey2{background: #4F4F4F;}
 .b_Grey3{background: #828282;}
@@ -86,7 +86,7 @@
 .c_green{color: #798B22;}
 .c_beige{color: #EEDFB7;}
 .c_black{color: #000000;}
-.c_white{color: #FAFAFA;}
+.c_white{color: #ffffff;}
 .c_grey1{color: #333333;}
 .c_grey2{color: #4F4F4F;}
 .c_Grey3{color: #828282;}
@@ -103,14 +103,14 @@ button {
     position: sticky;
     top: -1px;
     width: 100%;
-    z-index: 9999;
+    z-index: 100;
 }
 
 #footer {
     position: fixed;
     bottom: -1px;
     width: 100%;
-    z-index: 9999;
+    z-index: 100;
 }
 
 html {
