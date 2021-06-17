@@ -1,0 +1,96 @@
+body {
+    background-image: url(Assets/Community/background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 18vh;
+    z-index: -1;
+}
+
+.searchingbar{
+    display: flex;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.searchingbar input {
+    padding-left: 40px;
+    outline: none;
+    border: 0;
+    width: 100%;
+    height: 36px;
+    background-image: url(Assets/FAQ/search.svg);
+    background-repeat: no-repeat;
+    background-position: 8px center;
+}
+
+#community {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#community > * {
+    margin-bottom: 48px;
+}
+
+#squad_img {
+    background-image: url(Assets/Community/squad.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+#near_img {
+    background-image: url(Assets/Community/near.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+#near_img > * {
+    margin-left: 32px;
+}
+
+#near_img :first-child {
+    margin-top: 32px;
+}
+
+#near_img :nth-child(4) {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+#squad_img > * {
+    margin-left: 32px;
+}
+
+#squad_img :first-child {
+    margin-top: 32px;
+}
+
+#squad_img :nth-child(2) {
+    margin: 16px 32px 0px 32px
+}
+
+#squad_img :nth-child(3) {
+    float: right;
+    margin: 16px 32px 16px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+}
+
+#squad_img::after {
+
+    content: "";
+    
+    display: table;
+    
+    clear: both;
+    
+}
