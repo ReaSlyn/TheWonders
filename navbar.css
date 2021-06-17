@@ -50,7 +50,7 @@ table {
 nav {
     background-color: #0625BA;
     width: 100%;
-    height: 92px;
+    height: 48px;
     position: sticky;
 }
 
@@ -60,24 +60,12 @@ nav {
     margin-top: 0px;
 }
 
-#time {
-    color: white;
-    position: absolute;
-    top: 15px;
-    left: 30px;
-}
-
-#status {
-    position: absolute;
-    top: 15px;
-    right: 16px;
-}
 
 #flex_nav {
     display: flex;
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 14px;
     justify-content: space-between;
-    margin-top: 14px;
 }
 
 #logo {
