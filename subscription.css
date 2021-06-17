@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     z-index: -1;
+    padding-bottom: 0px !important;
 }
 
 #form {
@@ -74,10 +75,10 @@ body {
 }
 
 .formule {
-    margin-top: 4.92vh;
+    margin-top: 3vh;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .small {
@@ -92,6 +93,7 @@ body {
 .big {
     width: 115px;
     height: 144px;
+    padding: 10px 0px;
 }
 
 .big div {
