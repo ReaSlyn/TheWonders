@@ -168,12 +168,12 @@ nav {
     margin-top: 14px;
 }
 
-.searchingbar{
+.searchbar{
     display: flex;
     margin: 8px 0px 16px 0px;
 }
 
-.searchingbar input {
+.searchbar input {
     padding-left: 36px;
     outline: none;
     border: 0;
@@ -184,11 +184,11 @@ nav {
     background-position: 8px center;
 }
 
-input::placeholder {
+.searchbar input::placeholder {
     color: white;
 }
 
-input {
+.searchbar input {
     color: white;
 }
 
@@ -221,6 +221,10 @@ input {
 .category a img {
     width: 24px;
     height: 24px;
+}
+
+.category a p {
+    margin-top: 2px;
 }
 
 #lower {

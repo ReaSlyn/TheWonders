@@ -1,4 +1,9 @@
 /* PAGE DE CHARGEMENT */
+
+body {
+    padding-bottom: 0px !important;
+}
+
 .image_crop {
     overflow: hidden;
 }
