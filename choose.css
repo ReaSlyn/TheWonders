@@ -172,3 +172,7 @@ input[type="checkbox" i] {
 #blur.active, #sign_in.active, #register.active {
     visibility: visible;
 }
+
+#signin_link, #register_link {
+    cursor: pointer;
+}
