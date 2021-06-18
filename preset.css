@@ -59,6 +59,10 @@
     font-weight: bold;
 }
 
+.center {
+    text-align: center;
+}
+
 /* COLOR */
 .b_blue{background: #0625BA;}
 .b_red{background: #FF4602;}
@@ -72,7 +76,7 @@
 .b_white{background: #FFFFFF;}
 .b_grey1{background: #333333;}
 .b_grey2{background: #4F4F4F;}
-.b_Grey3{background: #828282;}
+.b_grey3{background: #828282;}
 .b_grey4{background: #BDBDBD;}
 .b_grey5{background: #E0E0E0;}
 .b_grey6{background: #F2F2F2;}
@@ -89,13 +93,14 @@
 .c_white{color: #ffffff;}
 .c_grey1{color: #333333;}
 .c_grey2{color: #4F4F4F;}
-.c_Grey3{color: #828282;}
+.c_grey3{color: #828282;}
 .c_grey4{color: #BDBDBD;}
 .c_grey5{color: #E0E0E0;}
 .c_grey6{color: #F2F2F2;}
 .c_grey7{color: #3C3C43 ;}
 
 button {
+    cursor: pointer;
     padding: 4px;
 }
 

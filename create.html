@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Connexion</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="create.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Content-->
+        <div id="popup">
+            <div id="top">
+                <p class="h5 c_white bold center">Créer un compte avec</p>
+                <div id="connexion_social">
+                    <button class="h4 b_white c_blue bold" onclick="location.href='home.html';">
+                        FACEBOOK
+                    </button>
+                    <button class="h4 b_white c_blue bold" onclick="location.href='home.html';">
+                        GOOGLE
+                    </button>
+                </div>
+            </div>
+            <p class="center h5 c_grey3">Ou créer un compte</p>
+            <div id="mid">
+                <div class="input">
+                    <input class="h5" type="text" placeholder="Prénom Nom">
+                </div>
+                <div class="input">
+                    <input class="h5" type="text" placeholder="E-mail">
+                </div>
+                <div class="input">
+                    <input class="h5" type="text" placeholder="Mot de passe">
+                </div>
+                <p class="h5">Force du mot de passe : <span class="bold c_green">Fort</span></p>
+                <div id="check">
+                    <input class="b_blue" type="checkbox">
+                    <p class="h5">J'accepte la <a class="c_blue" href="#">Politique de confidentialité</a></p>
+                </div>
+            </div>
+            <div id="bot">
+                <button class="h5 c_pink b_blue bold" onclick="location.href='home.html';">
+                    CRÉER LE COMPTE
+                </button>
+                <p class="h5">ou <a href="#">se connecter</a></p>
+            </div>
+        </div>
+    </body>
+</html>

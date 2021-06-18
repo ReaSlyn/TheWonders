@@ -1,0 +1,26 @@
+body {
+    background-image: url(Assets/Choose/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    margin: 44px 32px 0px 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#container img {
+    height: 32.51vh;
+}
+
+button {
+    width: 100%;
+    font-weight: 400 !important;
+    padding: 11px 0px;
+    margin-top: 32px;
+}

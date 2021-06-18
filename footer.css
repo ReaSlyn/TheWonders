@@ -2,6 +2,7 @@
     background-color: #0625BA;
     width: 100%;
     height: 64px;
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.25);
 }
 
 #flex_footer {
