@@ -6,16 +6,20 @@ let menuOpen = false;
 menu_button.addEventListener('click', () => {
   if(!menuOpen) {
     menu_button.classList.add('open');
-    menu.classList.add('opened');
+    menu.classList.add('active');
     blur.classList.add('active');
+    menu.classList.remove('close');
+    blur.classList.remove('close');
     menuOpen = true;
   }});
 
 close_button.addEventListener('click', () => {
     if(menuOpen) {
     menu_button.classList.remove('open');
-    menu.classList.remove('opened');
+    menu.classList.remove('active');
     blur.classList.remove('active');
+    menu.classList.add('close');
+    blur.classList.add('close');
     menuOpen = false;
   }
 });
@@ -23,8 +27,10 @@ close_button.addEventListener('click', () => {
 blur.addEventListener('click', () => {
     if(menuOpen) {
     menu_button.classList.remove('open');
-    menu.classList.remove('opened');
+    menu.classList.remove('active');
     blur.classList.remove('active');
+    menu.classList.add('close');
+    blur.classList.add('close');
     menuOpen = false;
   }
 });
