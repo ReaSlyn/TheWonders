@@ -49,4 +49,10 @@ table {
 
 a {
 	text-decoration: none;
+	color: #0625BA;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #0625BA;
 }
