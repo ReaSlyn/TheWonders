@@ -9,7 +9,8 @@ nav {
 #flex_nav {
     display: flex;
     padding-left: 20px;
-    padding-top: 14px;
+    align-items: center;
+    height: 100%;
     padding-right: 20px;
     justify-content: space-between;
 }

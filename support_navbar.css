@@ -9,12 +9,8 @@ nav {
 #flex_nav {
     display: flex;
     padding-left: 24px;
-    align-items: center;
-    height: 100%;
     padding-right: 16px;
     justify-content: space-between;
-}
-
-#flex_nav img {
-    cursor: pointer;
+    align-items: center;
+    height: 100%;
 }
