@@ -16,12 +16,16 @@ img {
     margin-right: 16px;
 }
 
-.container div.center :nth-child(1){
+.container div.center:not(.end) :nth-child(1){
     margin-bottom: 8px;
 }
 
 .container div.center {
     margin-bottom: 16px;
+}
+
+.end > * {
+    margin-bottom: 8px;
 }
 
 .answer_container {
@@ -44,4 +48,12 @@ input[type="checkbox" i] {
     margin-top: 3px;
 }
 
+.percent {
+    font-size: 72px;
+    margin-top: 16px;
+}
 
+button {
+    height: 54px;
+    margin-top: 16px;
+}

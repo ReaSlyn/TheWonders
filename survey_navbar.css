@@ -5,16 +5,22 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: fixed
+    position: fixed;
+    top: 0px;
 }
 
 .flex_navbar > * {
     margin: 20px 16px 0px 16px;
 }
 
+.back {
+    cursor: pointer;
+}
+
 .slider {
     display: flex;
     flex-direction: row;
+    margin-left: 30px;
 }
 
 .bullet {
@@ -29,4 +35,36 @@
 .on {
     width: 20px;
     opacity: 1;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.skip {
+    cursor: pointer;
+}
+
+div.slider :nth-child(1) {
+    order: 1;
+}
+
+div.slider :nth-child(2) {
+    order: 2;
+}
+
+div.slider :nth-child(3) {
+    order: 3;
+}
+
+div.slider :nth-child(4) {
+    order: 4;
+}
+
+div.slider :nth-child(5) {
+    order: 5;
+}
+
+div.slider :nth-child(6) {
+    order: 6;
 }

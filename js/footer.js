@@ -4,7 +4,6 @@ window.onload = () => { document.querySelectorAll(".icon_footer").forEach((eleme
     var id = element.id.substring(element.id.lastIndexOf('_')+1);
     var path_maj = z.replace('.html', '');
     var path = path_maj.toLowerCase()
-    console.log(id, path)
     if ( id == path ) {
         element.className += ' active';
     }
