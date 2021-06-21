@@ -1,0 +1,59 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Questionnaire</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="survey.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("survey_navbar.html");</script>
+        
+        <!--Content-->
+        <div class="container c_blue">
+            <img src="Assets/Survey/background_2.svg">
+            <div class="center">
+                <p class="h3">Si jamais une amie t’appelle pour aller boire un verre à l’improviste ?</p>
+                <p class="h5">Choisis d’abord une option pour continuer</p>
+            </div>
+            <div class="answer_container">
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je fonce et je suis souvent l’initiatrice.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">J’accepte, j’adore passer du temps avec mes amis. </p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Non, je m’organise toujours à l’avance.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Non, je n’ai jamais d’idée de playlist à proposer.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Non, je ne suis pas du genre à beaucoup sortir.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je déteste aller vers les gens mais j’adore quand ils me contactent.</p>
+                </div>
+            </div>
+            <button class="h3 b_pink c_white" onclick="location.href='survey_3.html';">
+                Suivant
+            </button>
+        </div>
+    </body>
+</html>

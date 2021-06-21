@@ -1,0 +1,60 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Questionnaire</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="survey.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("survey_navbar.html");</script>
+
+        <!--Content-->
+        <div class="container c_blue">
+            <img src="Assets/Survey/background_1.svg">
+            <div class="center">
+                <p class="h3">Entre amis, est-ce que tu choisis la musique qui passe ou tu laisses tes amis faire ?</p>
+                <p class="h5">Choisis d’abord une option pour continuer</p>
+            </div>
+            <div class="answer_container">
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">J’ai une ou plusieurs playlists toujours prêtes.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Il m’arrive de me chamailler pour passer ma musique.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Oui, ce que j’écoute s’adapte bien pour les soirées.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Les musiques de mes amis me conviennent. </p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je n’ai jamais d’idée de playlist à proposer. </p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je n’aime pas trop les soirées. </p>
+                </div>
+            </div>
+            <button class="h3 b_yellow c_white" onclick="location.href='survey_2.html';">
+                Suivant
+            </button>
+        </div>
+        <script src="js/survey.js"></script>
+    </body>
+</html>

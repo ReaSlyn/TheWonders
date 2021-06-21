@@ -1,0 +1,59 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Questionnaire</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="survey.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("survey_navbar.html");</script>
+
+        <!--Content-->
+        <div class="container c_blue">
+            <img src="Assets/Survey/background_4.svg">
+            <div class="center">
+                <p class="h3">Quel est l’art pour lequel tu portes le plus d'intérêt ?</p>
+                <p class="h5">Choisis d’abord une option pour continuer</p>
+            </div>
+            <div class="answer_container">
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Les arts légers à partager en groupe.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Les arts qui suscitent des émotions vives en moi. </p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je préfère la philosophie ou tout art instructif.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">J’en consomme uniquement pour faire passer le temps.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je préfère les choses logiques.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Les arts qui racontent des histoires et surtout en discuter avec mes amis.</p>
+                </div>
+            </div>
+            <button class="h3 b_yellow c_white" onclick="location.href='survey_5.html';">
+                Suivant
+            </button>
+        </div>
+    </body>
+</html>

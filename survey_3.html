@@ -1,0 +1,59 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Questionnaire</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="survey.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("survey_navbar.html");</script>
+
+        <!--Content-->
+        <div class="container c_blue">
+            <img src="Assets/Survey/background_3.svg">
+            <div class="center">
+                <p class="h3">Quel est ton rapport au travail ?</p>
+                <p class="h5">Choisis d’abord une option pour continuer</p>
+            </div>
+            <div class="answer_container">
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">C’est le meilleur moyen pour la femme de s’accomplir.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je m’impose d’être sérieuse dans mon travail.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je trouve mon épanouissement dans d'autres choses.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je manque souvent de motivation.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Je déteste travailler.</p>
+                </div>
+                <div class="answer">
+                    <input type="checkbox">
+                    <p class="h4">Le travail ne me plaît pas je procrastine mais s'il me plaît je peux m’investir à 100%.</p>
+                </div>
+            </div>
+            <button class="h3 b_green c_white" onclick="location.href='survey_4.html';">
+                Suivant
+            </button>
+        </div>
+    </body>
+</html>
