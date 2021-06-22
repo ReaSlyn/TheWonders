@@ -1,0 +1,61 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="payment.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!-- Content -->
+        <div class="container sfprodisplay_medium">
+            <div>
+                <img src="Assets/Payment/logo_stripe.svg">
+            </div>
+            <div class="back">
+                <img src="Assets/Payment/back.svg">
+                <p>Back</p>
+            </div>
+            <div class="center">
+                <img src="Assets/Payment/logo_wonders.svg">
+                <p class="wonders">The Wonders</p>
+                <p class="price sfprodisplay_semibold">149.99€</p>
+            </div>
+            <div class="b_black applepay">
+                <img src="Assets/Payment/applepay.svg">
+            </div>
+            <div class="cardpay">
+                <div class="line"></div>
+                <p class="center">Ou avec votre carte</p>
+                <div class="line"></div>
+            </div>
+            <div class="details">
+                <p class="placeholder sfprodisplay_semibold">Email</p>
+                <input type="text">
+            </div>
+            <div class="details">
+                <p class="placeholder sfprodisplay_semibold">Informations</p>
+                <div class="information">
+                    <input type="text" placeholder="1234 1234 1234 1234" class="sfprodisplay_medium">
+                    <div class="cards">
+                        <img src="Assets/Payment/visa.svg">
+                        <img src="Assets/Payment/mastercard.svg">
+                        <img src="Assets/Payment/american_express.svg">
+                        <img src="Assets/Payment/discover.svg">
+                    </div>
+                </div>
+                <div class="double">
+                    <input type="text" placeholder="MM/YY">
+                    <input type="text" placeholder="CVC">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
