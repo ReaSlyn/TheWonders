@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
+        <title>Paiemenet</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="reset.css">
@@ -28,9 +28,11 @@
                 <p class="wonders">The Wonders</p>
                 <p class="price sfprodisplay_semibold">149.99€</p>
             </div>
-            <div class="b_black applepay">
-                <img src="Assets/Payment/applepay.svg">
-            </div>
+            <a href="choice.html">
+                <div class="b_black applepay">
+                    <img src="Assets/Payment/applepay.svg">
+                </div>
+            </a>
             <div class="cardpay">
                 <div class="line"></div>
                 <p class="center">Ou avec votre carte</p>
@@ -52,8 +54,38 @@
                     </div>
                 </div>
                 <div class="double">
-                    <input type="text" placeholder="MM/YY">
-                    <input type="text" placeholder="CVC">
+                    <input type="text" placeholder="MM/YY" class="sfprodisplay_medium">
+                    <div>
+                        <input type="text" placeholder="CVC" class="sfprodisplay_medium">
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <p class="placeholder">Nom</p>
+                <input type="text">
+            </div>
+            <div class="details">
+                <p class="placeholder">Pays ou région</p>
+                <select class="sfprodisplay_medium">
+                    <option value="">France</option>
+                    <option value="">États-Unis</option>
+                    <option value="">Royaume-Uni</option>
+                    <option value="">Italie</option>
+                    <option value="">Espagne</option>
+                </select>
+                <input type="text" placeholder="ZIP">
+            </div>
+            <button onclick="location.href='choice.html';">
+                Payer 149.99€
+            </button>
+            <div class="end">
+                <div>
+                    <p>Powered by</p>
+                    <img src="Assets/Payment/stripe.svg">
+                </div>
+                <div>
+                    <p>Terms</p>
+                    <p>Privacy</p>
                 </div>
             </div>
         </div>

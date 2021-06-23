@@ -1,4 +1,4 @@
-$.get('https://ig.instant-tokens.com/users/3b01bf60-b1d5-402c-b751-5245a9c33399/instagram/17841403438699060/token?userSecret=j0qliqeh0ui0sz5ue6p0sok', returntoken);
+$.get('https://ig.instant-tokens.com/users/c2e41282-faf9-401f-ae71-f26b54d4aff7/instagram/17841440867111572/token?userSecret=iy5rvjw1yyjhij0o6lcl4g', returntoken);
 function returntoken(data) {
     let data_json = JSON.parse(data);
     console.log(data_json.Token);

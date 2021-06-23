@@ -1,0 +1,56 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Notification Communauté</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="notification.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Footer-->
+        <div id="footer"></div>
+        <script>$("#footer").load("footer.html");</script>
+
+        <!--Navbar-->
+        <nav>
+            <div id="flex_nav">
+                <img src="Assets/Navbar/back.svg" onclick="history.back()">
+                <p class="h4 bold c_white">Évènements</p>
+                <img src="Assets/Navbar/notifications.svg">
+            </div>
+        </nav>
+
+        <!--Content-->
+        <div class="container">
+            <img src="/Assets/Notification/notification_image.png" alt="">
+            <div class="notif_defis">
+                <div>
+                    <p class="h4 c_yellow">Notification masterclass</p>
+                    <div class="switch">
+                        <div class="circle b_yellow"></div>
+                        <div class="rect b_yellow"></div>
+                    </div>
+                </div>
+                <p class="h5 c_brown">Désactivé</p>
+            </div>
+            <div class="notif_defis">
+                <div>
+                    <p class="h4 c_yellow">Notification atelier co-développement </p>
+                    <div class="switch">
+                        <div class="circle b_yellow"></div>
+                        <div class="rect b_yellow"></div>
+                    </div>
+                </div>
+                <p class="h5 c_brown">Désactivé</p>
+            </div>
+        </div>
+
+    </body>
+</html>

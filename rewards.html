@@ -1,0 +1,57 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Récompenses</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="rewards.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Footer-->
+        <div id="footer"></div>
+        <script>$("#footer").load("footer.html");</script>
+
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("navbar.html");</script>
+
+        <!--Content-->
+        <div class="container">
+            <div class="banner">
+                <img src="/Assets/Rewards/background.svg" alt="">
+                <p class="h3 b_green c_white">Tes récompenses</p>
+            </div>
+            <div class="block b_pink">
+                <div class="text_claim">
+                    <p class="h4 c_white"><span style="font-weight: 700;">5 défis</span> terminés</p>
+                    <p class="h5 c_white">T-shirt femme idéale, tu as débloqué ce T-shirt après la validation de 5 défis</p>
+                    <button class="h4 b_green c_white" onclick="location.href='rewards_claim.html';">
+                        Récupérer >
+                    </button>
+                </div>
+                <img src="/Assets/Rewards/t-shirt.svg" alt="">
+            </div>
+            <div class="block b_blue">
+                <div class="text_claim">
+                    <p class="h4 c_white"><span style="font-weight: 700;">Inscris toi</span></p>
+                    <p class="h5 c_white">Inscris toi pour récupérer ce livre qui porte sur le thème de l’audace</p>
+                </div>
+                <img src="/Assets/Rewards/books.svg" alt="">
+            </div>
+            <div class="block b_brown">
+                <div class="text_claim">
+                    <p class="h4 c_white"><span style="font-weight: 700;">20 défis</span> terminés</p>
+                    <p class="h5 c_white">Remplis cette mission pour optenir ce magnifique mug</p>
+                </div>
+                <img src="/Assets/Rewards/mug.svg" alt="">
+            </div>
+        </div>
+    </body>
+</html>

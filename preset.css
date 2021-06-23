@@ -20,11 +20,11 @@
 
 
 .blacker_extra {
-    font-family: 'Blacker Display ExtraBold'
+    font-family: 'Blacker Display ExtraBold' !important;
 }
 
 .blacker_regular {
-    font-family: 'Blacker Display Regular'
+    font-family: 'Blacker Display Regular' !important;
 }
 
 .sfprodisplay_semibold {

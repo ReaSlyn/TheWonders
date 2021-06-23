@@ -1,5 +1,5 @@
 body {
-    background-image: url(Assets/Choose/background.svg);
+    background-image: url("Assets/Start/background.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -173,6 +173,10 @@ input[type="checkbox" i] {
     visibility: visible;
 }
 
-#signin_link, #register_link {
+#signin_link, #register_link, #register_button {
     cursor: pointer;
+}
+
+#button p {
+    margin-top: 32px;
 }

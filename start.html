@@ -2,12 +2,12 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Choix</title>
+        <title>Début</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="preset.css">
-        <link rel="stylesheet" type="text/css" href="choose.css">
+        <link rel="stylesheet" type="text/css" href="start.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
@@ -15,17 +15,15 @@
     <body>
         <!--Content-->
         <div id="container">
-            <img src="Assets/Choose/photo.svg">
+            <img src="Assets/Start/photo.svg">
             <div id="button">
                 <button id="signin_button" class="h3 b_blue c_white">
                     Connexion
                 </button>
-                <button id="register_button" class="h3 b_blue c_white">
-                    Créer un compte
-                </button>
                 <button class="h3 b_green c_white" onclick="location.href='home.html';">
                     Continuer en tant qu'invité
                 </button>
+                <p class="h5 center">ou <span id="register_button" class="c_blue">créer un compte</span></p>
             </div>
         </div>
         <div id="blur" class="b_black"></div>

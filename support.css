@@ -1,7 +1,8 @@
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     padding: 32px;
+    box-sizing: border-box;
 }
 
 .chat {
@@ -20,6 +21,7 @@
 
 .chat>p {
     text-align: center;
+    width: 100%;
 }
 
 .live_chat {
@@ -32,6 +34,7 @@
     background: rgba(6, 36, 186, 0.3);
     margin-bottom: 129px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .live_chat_R {
@@ -56,6 +59,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 8px;
 }
 
 .email_text {

@@ -88,7 +88,7 @@ body {
 }
 
 .small div {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .big {
@@ -98,7 +98,7 @@ body {
 }
 
 .big div {
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .centered {
@@ -107,4 +107,8 @@ body {
 
 .italic {
     font-style: italic;
+}
+
+a:visited {
+    color: white;
 }
