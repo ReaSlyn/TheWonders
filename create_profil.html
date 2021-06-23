@@ -1,0 +1,84 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Création de profil</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="create_profil.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Footer-->
+        <div id="footer"></div>
+        <script>$("#footer").load("footer.html");</script>
+
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("navbar.html");</script>
+
+        <!--Content-->
+        <div class="container">
+            <img class="background_profil" src="/Assets/Profil/profil.svg" alt="">
+            <div class="top_profil">
+                <img class="background_profil" id="background_profil" src="/Assets/Profil/profil.svg" alt="">
+                <img id="cadre_profil" src="/Assets/Profil/cadre_photo.svg" alt="">
+            </div>
+            <div class="container_profil b_white">
+                <div class="info_profil" style="margin-top: 32px;">
+                    <p class="h4 c_red">Nom Prénom</p>
+                    <input type="text" class="h5" placeholder="Nom Prénom">
+                </div>
+                <div class="info_profil">
+                    <p class="h4 c_red">Age</p>
+                    <input type="text" class="h5" placeholder="Age">
+                </div>
+                <div class="info_profil">
+                    <p class="h4 c_red">Biographie</p>
+                    <input type="text" class="h5 bio" placeholder="Bio">
+                </div>
+                <div class="barre b_blue"></div>
+                <div class="gif_profil">
+                    <p class="h3 c_red">Gif</p>
+                    <div class="add_gif_block">
+                        <img class="add_gif_1" src="/Assets/Profil/add_gift.svg" alt="">
+                        <img class="add_gif_2" src="/Assets/Profil/add_gift.svg" alt="">
+                    </div>
+                </div>
+                <div class="reseaux">
+                    <div class="faceboock block">
+                        <img class="icon faceboock_icon" src="/Assets/Profil/icone_reseaux/facebook.svg" alt="">
+                        <input type="text" class="h5" placeholder="Facebook">
+                    </div>
+                    <div class="linkedin block">
+                        <img class="icon linkedin_icon" src="/Assets/Profil/icone_reseaux/linkedin.svg" alt="">
+                        <input type="text" class="h5" placeholder="Linkedin">
+                    </div>
+                    <div class="instagram block">
+                        <img class="icon instagram_icon" src="/Assets/Profil/icone_reseaux/intagram.svg" alt="">
+                        <input type="text" class="h5" placeholder="Instagram">
+                    </div>
+                    <div class="twitter block">
+                        <img class="icon twitter_icon" src="/Assets/Profil/icone_reseaux/twitter.svg" alt="">
+                        <input type="text" class="h5" placeholder="Twitter">
+                    </div>
+                </div>
+                <div class="barre b_blue"></div>
+                <div class="info_profil">
+                    <p class="h4 c_red">Email</p>
+                    <input type="text" class="h5" placeholder="Email">
+                </div><div class="info_profil">
+                    <p class="h4 c_red">Tel</p>
+                    <input type="text" class="h5" placeholder="Tel">
+                </div>
+            </div>
+        </div>
+        
+
+    </body>
+</html>
