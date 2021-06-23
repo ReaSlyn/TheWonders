@@ -1,0 +1,57 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coach</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="coach.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Footer-->
+        <div id="footer"></div>
+        <script>$("#footer").load("footer.html");</script>
+
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("navbar.html");</script>
+
+        <!--Content-->
+        <div class="container">
+            <img id="photo" src="/Assets/Coach/coach.svg" alt="">
+            <div class="description">
+                <p class="h2 c_yellow">Lorine Castier</p>
+                <p class="h4 c_purple">Coach de confiance en soi</p>
+            </div>
+            <p class="prix h4 c_white b_green">63€ /h</p>
+            <div class="reseaux">
+                <img class="facebook" src="/Assets/Coach/icone_reseaux/facebook.svg" alt="facebook">
+                <img class="twitter" src="/Assets/Coach/icone_reseaux/twitter.svg" alt="twitter">
+                <img class="intagram" src="/Assets/Coach/icone_reseaux/intagram.svg" alt="intagram">
+                <img class="linkedin" src="/Assets/Coach/icone_reseaux/linkedin.svg" alt="linkedin">
+            </div>
+            <div class="text_coach b_beige">
+                <p class="h5">❝ Ma mission est de guider ces femmes qui ont le fort désir de lancer et développer leur entreprise, mais ne savent pas par où commencer : et tout se joue dans la tête d’abord ! ❞ </p>
+                <div class="contact c_white b_black"><p class="h5">Contater</p><img src="/Assets/Coach/icone_reseaux/Arrow.svg" alt=""></div>
+            </div>
+            <div class="commentaire">
+                <img class="photo" src="/Assets/Coach/photo_1.svg" alt="photo_1">
+                <p class="name h5">Amina Buladi</p>
+                <p class="date h5">publié le 10 juin</p>
+                <p class="text_commentaire h5">Super ! J’ai repris confiance en moi, je suis prête à me lancer dans mes projets.</p>
+            </div>
+            <div class="commentaire">
+                <img class="photo" src="/Assets/Coach/photo_2.svg" alt="photo_2">
+                <p class="name h5">Aline Dufret</p>
+                <p class="date h5">publié le 11 juin</p>
+                <p class="text_commentaire h5">Excellente coatch, elle m’a beaucoup aidé ! Je recommande fortement.</p>
+            </div>
+        </div> 
+    </body>
+</html>

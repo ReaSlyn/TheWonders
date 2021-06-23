@@ -1,0 +1,92 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding-top: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#photo {
+    margin-bottom: 32px;
+    width: 50%;
+}
+
+.description {
+    margin-bottom: 16px;
+}
+
+.prix {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    margin-bottom: 32px;
+}
+
+.reseaux {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 16px;
+    grid-template-areas:
+      "facebook twitter intagram linkedin";
+    margin-bottom: 32px;
+}
+.facebook { grid-area: facebook; }
+.twitter { grid-area: twitter; }
+.intagram { grid-area: intagram; }
+.linkedin { grid-area: linkedin; }
+
+.text_coach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 8px 32px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: auto;
+    padding: 4px 8px;
+    margin-top: 8px;
+}
+
+.contact>p {
+    margin-right: 4px;
+}
+
+.commentaire {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "photo name date"
+      "photo text_commentaire text_commentaire";
+    margin-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  
+.photo {
+    grid-area: photo;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.name { grid-area: name; margin-right: 16px;}
+.date { grid-area: date; }
+.text_commentaire { grid-area: text_commentaire; margin-top: 8px;}
+  

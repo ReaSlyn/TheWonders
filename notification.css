@@ -92,3 +92,25 @@ a:visited {
 	text-decoration: none;
 	color: white;
 }
+
+.on {
+    animation-name: switchon;
+    animation-duration: 0.3s;
+    left: 30px;
+}
+
+.off {
+    animation-name: switchoff;
+    animation-duration: 0.3s;
+    left: 0px;
+}
+
+@keyframes switchon {
+    0% {left: 0px;}
+    100% {left: 30px;}
+}
+
+@keyframes switchoff {
+    0% {left: 30px;}
+    100% {left: 0px;}
+}

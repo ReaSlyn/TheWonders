@@ -90,3 +90,8 @@
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.container button.b_brown {
+    margin-bottom: 16px;
+    background-position-x: 65%;
+}

@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(90deg, #F9C3DA 13.54%, rgba(225, 145, 116, 0.8) 77.37%);
+}
+
+
+.container {
+    width: 100%;
+    height: 80vh;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text_badge>p:first-child {
+    margin-bottom: 8px;
+}
+
+.progress_barre {
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px 10px;
+    box-sizing: border-box;
+}

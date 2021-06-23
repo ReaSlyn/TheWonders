@@ -1,0 +1,177 @@
+nav {
+    background-color: #0625BA;
+    width: 100%;
+    height: 48px;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+#flex_nav {
+    display: flex;
+    padding-left: 24px;
+    align-items: center;
+    height: 100%;
+    padding-right: 16px;
+    justify-content: space-between;
+}
+
+#flex_nav img {
+    cursor: pointer;
+}
+
+#flex_nav div {
+    width: 32px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 32px;
+}
+
+.banner > * {
+    margin-bottom: 8px;
+}
+
+.barre {
+    height: 2px;
+    width: 100%;
+}
+
+.input_defi {
+    padding: 24px 32px;
+}
+
+.sous-titre {
+    position: relative;
+}
+
+.sous-titre::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #B06902;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+.photo_add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #973FBD;
+    box-sizing: border-box;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.defil {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 32px;
+    margin-bottom: 8px;
+}
+
+.defil p:first-child {
+    margin-right: 8px;
+}
+
+.defil p:last-child {
+    position: relative;
+}
+
+.defil p:last-child::before {
+    content: '';
+    height: 2px;
+    width: 200%;
+    background: #B06902;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+.defil p:last-child::after {
+    content: url("/Assets/Coach/arrow_down.svg");
+    position: absolute;
+    right: -100%;
+    bottom: -33%;
+}
+
+.block_down {
+    margin-top: 32px;
+}
+
+.commentaire {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 8px 8px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Selection Selection Selection Selection"
+      "Exentrique Manuel Sérieux Economie"
+      "Social Personnel Soutien Structurel";
+    margin: 0 32px;
+}
+  
+.Selection { grid-area: Selection; }
+
+.Exentrique { grid-area: Exentrique; }
+
+.Manuel { grid-area: Manuel; }
+
+.Sérieux { grid-area: Sérieux; }
+
+.Economie { grid-area: Economie; }
+
+.Social { grid-area: Social; }
+
+.Personnel { grid-area: Personnel; }
+
+.Soutien { grid-area: Soutien; }
+
+.Structurel { grid-area: Structurel; }
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 20px;
+}
+  
+input[type="text"]{
+    border: none;
+    border-bottom: 2px solid #B06902;
+    padding-left: 8px;
+}
+
+input:not(.select) {
+    width: 90%;
+}
+
+input.select {
+    background-image: url(Assets/Defi/dropdown.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+input[type="text"]::placeholder {
+    color: #B06902;
+}

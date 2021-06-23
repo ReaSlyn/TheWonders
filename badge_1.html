@@ -3,12 +3,12 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Récompenses</title>
+        <title>Badge</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="preset.css">
-        <link rel="stylesheet" type="text/css" href="rewards.css">
+        <link rel="stylesheet" type="text/css" href="badge_1.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
@@ -19,24 +19,24 @@
         <script>$("#footer").load("footer.html");</script>
 
         <!--Navbar-->
-        <nav>
-            <div id="flex_nav">
-                <img src="Assets/Navbar/back.svg" onclick="history.back()">
-                <p class="h4 bold c_white">Ta récompense</p>
-                <img src="Assets/Navbar/gift.svg">
-            </div>
-        </nav>
+        <div id="navbar"></div>
+        <script>$("#navbar").load("navbar.html");</script>
 
         <!--Content-->
         <div class="container">
-            <img id="background_claim" src="/Assets/Rewards/background_recuperer.svg" alt="">
-            <div class="block_text">
-                <p class="h2 c_blue">5 défis terminés</p>
-                <p class="h4 c_blue">T-shirt “femme idéale”, clique sur récupérer afin de recevoir ce T-shirt</p>
+            <div class="up">
+                <img src="Assets/Badge/badge_wommen.svg" alt="">
+                <div class="text_badge">
+                    <p class="h1 c_white">Rejoins la Squad</p>
+                    <p class="h4 c_white">Félicitation, tu as rejoint ta première squad. Tu peux désormais discuter et réaliser des défis avec les membres de ta squad</p>
+                </div>
             </div>
-            <a class="block_claim b_green" href="rewards.html">
-                <p class="c_white h3">Récupérer</p>
-            </a>
+            <div class="down">
+                <div class="progress_barre b_green">
+                    <p class="h5 c_white">100%</p>
+                </div>
+                <p class="h4 c_white">Tu as complété ce défi avec succès</p>
+            </div>
         </div>
     </body>
 </html>

@@ -1,0 +1,79 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Proposer un défi</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="suggest.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Footer-->
+        <div id="footer"></div>
+        <script>$("#footer").load("footer.html");</script>
+
+        <!--Navbar-->
+        <nav>
+            <div id="flex_nav">
+                <img src="Assets/Navbar/back.svg" onclick="history.back()">
+                <p class="h3 bold c_white blacker_extra">Proposition</p>
+                <div></div>
+            </div>
+        </nav>
+        <!--Content-->
+        <div class="container">
+            <div class="b_purple banner">
+                <p class="c_white h3">Propose un défi !</p>
+                <p class="c_white h5">Comme tu as dépassé les 50 points d’audace, tu peux désormais proposer tes propres défis.</p>
+                <p class="c_white h4">Sois créative et amuse toi ! </p>
+            </div>
+            <div class="input_defi">
+                <p class="h4 c_yellow titre">Donne un nom à ton défi </p>
+                <input type='text' class="h5 c_brown sous-titre" placeholder="Nom du défi">
+            </div>
+            <div class="barre b_blue"></div>
+            <div class="input_defi">
+                <p class="h4 c_yellow titre">Ajoute une description</p>
+                <input type='text' class="h5 c_brown sous-titre" placeholder="Description">
+            </div>
+            <div class="barre b_blue"></div>
+            <div class="input_defi">
+                <p class="h4 c_yellow titre">Importe une photo</p>
+                <div class="photo_add">
+                    <img src="/Assets/Defi/+.svg" alt="">
+                    <p class="h5 c_purple">Photo</p>
+                </div>
+            </div>
+            <div class="barre b_blue"></div>
+            <div class="block_down">
+                <div class="defil">
+                    <p class="h4 c_yellow">Type de defi :</p>
+                    <input type='text' class="h5 c_brown select" placeholder="Catégorie">
+                </div>
+                <div class="defil">
+                    <p class="h4 c_yellow">Durée du défi :</p>
+                    <input type='text' class="h5 c_brown select" placeholder="Temps">
+                </div>
+                <div class="commentaire">
+                    <p class="h4 c_yellow Selection">Sélectionne des tags :</p>
+                    <p class="h6 c_beige b_purple tags Exentrique">Exentrique</p>
+                    <p class="h6 c_beige b_purple tags Manuel">Manuel</p>
+                    <p class="h6 c_beige b_purple tags Sérieux">Sérieux</p>
+                    <p class="h6 c_beige b_purple tags Economie">Economie</p>
+                    <p class="h6 c_beige b_purple tags Social">Social</p>
+                    <p class="h6 c_beige b_purple tags Personnel">Personnel</p>
+                    <p class="h6 c_beige b_purple tags Soutien">Soutien</p>
+                    <p class="h6 c_beige b_purple tags Structurel">Structurel</p>
+                </div>
+            </div>
+        </div>
+        
+
+    </body>
+</html>
