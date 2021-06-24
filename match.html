@@ -24,8 +24,39 @@
         <!--Content-->
         <p class="title h1">MATCH AVEC ...</p>
         <div class="matching">
-            <a href="#"><img src="Assets/Match/wonders.svg"></a>
-            <a href="#"><img src="Assets/Match/mentor.svg"></a>
+            <img id="wonder_button" src="Assets/Match/wonders.svg">
+            <img id="mentor_button" src="Assets/Match/mentor.svg">
         </div>
+        <div id="blur_popup" class="b_black"></div>
+        <div id="popup_wonder" class="b_green c_white">
+            <div class="top">
+                <div>
+                    <p class="h4 center">Tu viens de match avec</p>
+                    <p class="h3 center">Justine Latour</p>
+                </div>
+            </div>
+            <div class="bot">
+                <p class="h5 center">Tu as obtenu un défi WONDER en duo</p>
+                <div class="buttons">
+                    <button class="h4 b_black c_white" onclick="location.href='community.html';">
+                        Voir son profil
+                    </button>
+                    <button class="h4 b_pink c_white" onclick="location.href='defi.html';">
+                        Faire le défi
+                    </button>
+                </div>
+            </div>
+            <img class="close_1" src="Assets/Popup/close.svg">
+        </div>
+        <div id="popup_mentor" class="b_pink c_white">
+            <div>
+                <p class="h3 title center">Tu viens de match avec une MENTOR !</p>
+            </div>
+            <button class="h4 b_red c_white" onclick="location.href='create_profil.html';">
+                Discuter
+            </button>
+            <img class="close_2" src="Assets/Popup/close.svg">
+        </div>
+        <script src="js/popup_match.js"></script>
     </body>
 </html>

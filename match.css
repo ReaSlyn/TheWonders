@@ -18,8 +18,133 @@ body {
 
 .matching img {
     width: 100%;
+    margin-bottom: 56px;
+    cursor: pointer
 }
 
-.matching a {
-    margin-bottom: 56px;
+/* POPUP */
+#blur_popup {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 5000;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.7;
+    backdrop-filter: blur(10px);
+}
+
+#blur_popup.active {
+    visibility: visible;
+}
+
+#popup_wonder {
+    visibility: hidden;
+    position: absolute;
+    margin: auto;
+    margin-top: 50vh;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    height: 100vh;
+    width: 310px;
+    height: 310px;
+    background-image: url(Assets/Popup/wonder.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#popup_wonder.active {
+    visibility: visible;
+}
+
+#popup_wonder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#popup_wonder .top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+#popup_wonder button {
+    padding: 10px 10px;
+}
+
+#popup_wonder img {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+#popup_wonder .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+#popup_wonder .bot {
+    display: flex;
+    flex-direction: column;
+}
+
+#popup_wonder .bot > p {
+    margin-bottom: 8px;
+}
+
+#popup_mentor {
+    visibility: hidden;
+    position: absolute;
+    margin: auto;
+    margin-top: 50vh;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    height: 100vh;
+    width: 310px;
+    height: 310px;
+    background-image: url(Assets/Popup/mentor.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#popup_mentor.active {
+    visibility: visible;
+}
+
+#popup_mentor > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#popup_mentor > div > * {
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+#popup_mentor .title {
+    width: 300px;
+    font-weight: 400;
+}
+
+#popup_mentor button {
+    position: absolute;
+    padding: 10px 10px;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#popup_mentor img {
+    position: absolute;
+    top: 8px;
+    right: 8px;
 }
