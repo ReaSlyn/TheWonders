@@ -17,6 +17,10 @@ nav {
     padding-bottom: 8px;
 }
 
+body {
+    overflow: hidden;
+}
+
 .top {
     display: flex;
     flex-direction: row;

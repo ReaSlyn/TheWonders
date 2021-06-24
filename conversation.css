@@ -3,6 +3,7 @@ nav {
     width: 100%;
     height: auto;
     position: sticky;
+    top: 0px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -19,6 +20,10 @@ nav {
 
 #flex_nav .top p {
     margin: 0px;
+}
+
+body {
+    overflow: hidden;
 }
 
 .container {
