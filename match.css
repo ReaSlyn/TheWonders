@@ -25,7 +25,7 @@ body {
 /* POPUP */
 #blur_popup {
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 5000;
     width: 100vw;
@@ -40,7 +40,7 @@ body {
 
 #popup_1 {
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     margin: auto;
     margin-top: 50vh;
     top: 0;
@@ -101,7 +101,7 @@ body {
 
 #popup_2 {
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     margin: auto;
     margin-top: 50vh;
     top: 0;

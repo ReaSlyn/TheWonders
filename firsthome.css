@@ -216,7 +216,7 @@ div.column {
 /* POPUP */
 
 #blur_popup {
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 5000;
     width: 100vw;
@@ -230,7 +230,7 @@ div.column {
 }
 
 #popup {
-    position: absolute;
+    position: fixed;
     margin: auto;
     margin-top: 50vh;
     top: 0;
