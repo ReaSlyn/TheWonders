@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Inscription</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="register.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Content-->
+        <div id="container">
+            <img src="Assets/Start/photo.svg">
+            <div id="button">
+                <button id="signin_button" class="h3 b_blue c_white">
+                    Connexion
+                </button>
+                <button class="h3 b_green c_white" onclick="location.href='firsthome.html';">
+                    Continuer en tant qu'invité
+                </button>
+                <p class="h5 center">ou <span id="register_button" class="c_blue">créer un compte</span></p>
+            </div>
+        </div>
+        <div id="blur" class="b_black"></div>
+        <div id="register">
+                <div class="popup">
+                    <div class="top">
+                        <p class="h5 c_white bold center">Créer un compte avec</p>
+                        <div class="connexion_social">
+                            <button class="h4 b_white c_blue bold" onclick="location.href='survey_1.html';">
+                                FACEBOOK
+                            </button>
+                            <button class="h4 b_white c_blue bold" onclick="location.href='survey_1.html';">
+                                GOOGLE
+                            </button>
+                        </div>
+                    </div>
+                    <p class="center h5 c_grey3">Ou créer un compte</p>
+                    <div class="mid">
+                        <div class="input">
+                            <input class="h5 name" type="text" placeholder="Prénom Nom">
+                        </div>
+                        <div class="input">
+                            <input class="h5 mail" type="text" placeholder="E-mail">
+                        </div>
+                        <div class="input">
+                            <input class="h5 password" type="password" placeholder="Mot de passe">
+                        </div>
+                        <p class="h5">Force du mot de passe : <span class="bold c_green">Fort</span></p>
+                        <div class="check">
+                            <input class="b_blue" type="checkbox">
+                            <p class="h5">J'accepte la <a class="c_blue" href="#">Politique de confidentialité</a></p>
+                        </div>
+                    </div>
+                    <div class="bot">
+                        <button class="h5 c_pink b_blue bold" onclick="location.href='survey_1.html';">
+                            S'INSCRIRE
+                        </button>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>

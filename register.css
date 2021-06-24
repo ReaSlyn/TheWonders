@@ -1,0 +1,173 @@
+body {
+    background-image: url("Assets/Start/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    margin: 44px 32px 0px 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#container img {
+    height: 32.51vh;
+}
+
+#button button {
+    width: 100%;
+    font-weight: 400 !important;
+    padding: 11px 0px;
+    margin-top: 32px;
+}
+
+/* Pop-up */
+
+.popup {
+    position: absolute;
+    width: 312px;
+    background-image: url(Assets/Create/background.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+    margin-top: 50vh;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup > * {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.popup p.h5.c_white.bold.center {
+    margin-top: 32px;
+}
+
+.top {
+    height: 145px;
+    margin-bottom: 16px;
+}
+
+.connexion_social {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.connexion_social button {
+    width: 132px;
+    height: 45px;
+}
+
+.connexion_social :nth-child(1){
+    background-repeat: no-repeat;
+    background-image: url(Assets/Create/facebook.svg);
+    background-position: 12px center;
+    padding-left: 24px;
+}
+
+.connexion_social :nth-child(2){
+    background-repeat: no-repeat;
+    background-image: url(Assets/Create/google.svg);
+    background-position: 16px center;
+    padding-left: 40px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid > * {
+    margin-top: 16px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 3px rgba(50, 50, 93, 0.15), 0px 1px 0px rgba(0, 0, 0, 0.02);
+}
+
+.input input {
+    padding-left: 40px;
+    outline: none;
+    border: 0;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 12px center;
+}
+
+.input input::placeholder {
+    color: .828282;
+}
+
+.name {
+    background-image: url(Assets/Create/name.svg);
+}
+
+.mail {
+    background-image: url(Assets/Create/email.svg);
+}
+
+.password {
+    background-image: url(Assets/Create/password.svg);
+    background-position: 16px center;
+}
+
+.check {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+input[type="checkbox" i] {
+    margin: 0;
+    width: 20px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.bot button {
+    width: 120px;
+    height: 36px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+#blur {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+    backdrop-filter: blur(10px);
+}
+
+#blur.active, #sign_in.active, #register.active {
+    visibility: visible;
+}
+
+#signin_link, #register_link, #register_button {
+    cursor: pointer;
+}
+
+#button p {
+    margin-top: 32px;
+}
