@@ -1,0 +1,357 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Historique des défis</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="history_style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("navbar.html");</script>
+
+        <!--Footer-->
+        <div id="footer"></div>
+        <script>$("#footer").load("footer.html");</script>
+
+
+        <!--Nav Secondaire-->
+        <div class="top-bar">
+            <div class="title-div selected">
+                <h3 class="title-nav">Quotidien</h3>
+            </div>
+            <div class="title-div">
+                <h3 class="title-nav">Hebdo</h3>
+            </div>
+            <div class="title-div">
+                <h3 class="title-nav">Duo</h3>
+            </div>
+        </div>
+
+        <!-- Leveling -->
+        <div class="leveling">
+            <div class="progress_barre b_pink">
+                <div class="bar b_red"></div>
+                <img class="badge_barre_1" src="/Assets/Badge/1.svg" alt="">
+                <img class="badge_barre_2" src="/Assets/Badge/2.svg" alt="">
+                <img class="badge_barre_3" src="/Assets/Badge/3.svg" alt="">
+              </div>
+            <h4 class="daring">Taux d’audace : 28%</h4>
+        </div>
+
+
+    <!-- Challenge History -->
+    <div class="quotidien">
+        <div class="challenge-history">
+            <div class="last-challenge">
+                <div class="last-challenge-header">
+                    <h3 class="last-challenge-title" >Dernier défi</h3>
+                    <p class="last-challenger-percent">+1% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Salut !</h4>
+                    <p class="last-challenge-text-paragraph">Ton défi du jour personnel si tu l’acceptes est de dire bonjour à un ou une inconnue dans la rue.</p>
+                    <p class="how-much">90% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Point de vue</h3>
+                <img src="./Assets/Badge/icone_badge/women_power_1.svg" alt="women_power_1" class="challenge-box-badge">
+                <p class="challenge-box-text">Fais des phrases avec ce qui t’agace dans ta vie et reformule-les de manière positive</p>
+                <div class="challenge-box-footer">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-box-day">J+1</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Attention</h3>
+                <img src="./Assets/Badge/icone_badge/women_power_2.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Envoi une lettre à quelqu’un d’important pour toi et envoi-lui</p>
+                <div class="challenge-box-footer">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-box-day">J+2</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Confiance</h3>
+                <img src="./Assets/Badge/icone_badge/women_power_3.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Énumère cinq de tes qualités physiques et cinq de tes qualités psychologiques</p>
+                <div class="challenge-box-footer">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-box-day">J+3</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Création</h3>
+                <img src="./Assets/Badge/icone_badge/wommen_united.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Créé quelque chose (dessin, texte, nourriture...) qui te rend fière</p>
+                <div class="challenge-box-footer">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-box-day">J+4</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Bonjour</h3>
+                <img src="./Assets/Badge/icone_badge/women's.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Donne des nouvelles à une personne que tu estimes avoir délaissée</p>
+                <div class="challenge-box-footer">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-box-day">J+5</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Bonjour</h3>
+                <img src="./Assets/Badge/icone_badge/women's.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Donne des nouvelles à une personne que tu estimes avoir délaissée</p>
+                <div class="challenge-box-footer">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-box-day">J+6</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Bonjour</h3>
+                <img src="./Assets/Badge/icone_badge/women's.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Donne des nouvelles à une personne que tu estimes avoir délaissée</p>
+                <div class="challenge-box-footer">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-box-day">J+7</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Bonjour</h3>
+                <img src="./Assets/Badge/icone_badge/women's.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Donne des nouvelles à une personne que tu estimes avoir délaissée</p>
+                <div class="challenge-box-footer">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-box-day">J+8</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="duo hidden">
+        <div class="challenge-history">
+            <div class="last-challenge">
+                <div class="last-challenge-header">
+                    <h3 class="last-challenge-title" >Dernier défi</h3>
+                    <p class="last-challenger-percent">+1% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <div class="lc-title-duo">
+                        <h4 class="last-challenge-text-title">Bonsoir !</h4>
+                        <p class="challenge-duo">Lucie</p>
+                    </div>
+                    <p class="last-challenge-text-paragraph">Va boire un verre avec ta wonder</p>
+                    <p class="how-much">90% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Instruction</h3>
+                <img src="./Assets/Badge/icone_badge/women_power_1.svg" alt="women_power_1" class="challenge-box-badge">
+                <p class="challenge-box-text">Fais des phrases avec ce qui t’agace dans ta vie et reformule-les de manière positive</p>
+                <div class="challenge-box-footer-duo">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-duo">Joséphine</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Attention</h3>
+                <img src="./Assets/Badge/icone_badge/women_power_2.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Envoi une lettre à quelqu’un d’important pour toi et envoi-lui</p>
+                <div class="challenge-box-footer-duo">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-duo">Joséphine</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Confiance</h3>
+                <img src="./Assets/Badge/icone_badge/women_power_3.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Énumère cinq de tes qualités physiques et cinq de tes qualités psychologiques</p>
+                <div class="challenge-box-footer-duo">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-duo">Joséphine</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Création</h3>
+                <img src="./Assets/Badge/icone_badge/wommen_united.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Créé quelque chose (dessin, texte, nourriture...) qui te rend fière</p>
+                <div class="challenge-box-footer-duo">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-duo">Joséphine</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Bonjour</h3>
+                <img src="./Assets/Badge/icone_badge/women's.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Donne des nouvelles à une personne que tu estimes avoir délaissée</p>
+                <div class="challenge-box-footer-duo">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-duo">Joséphine</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Bonjour</h3>
+                <img src="./Assets/Badge/icone_badge/women's.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Donne des nouvelles à une personne que tu estimes avoir délaissée</p>
+                <div class="challenge-box-footer-duo">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-duo">Joséphine</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Bonjour</h3>
+                <img src="./Assets/Badge/icone_badge/women's.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Donne des nouvelles à une personne que tu estimes avoir délaissée</p>
+                <div class="challenge-box-footer-duo">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-duo">Joséphine</h4>
+                </div>
+            </div>
+            <div class="challenge-box">
+                <h3 class="challenge-box-title">Bonjour</h3>
+                <img src="./Assets/Badge/icone_badge/women's.svg" alt="women_power_2" class="challenge-box-badge">
+                <p class="challenge-box-text">Donne des nouvelles à une personne que tu estimes avoir délaissée</p>
+                <div class="challenge-box-footer-duo">
+                    <p class="challenge-box-percent">+1% d’audace</p>
+                    <h4 class="challenge-duo">Joséphine</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hebdo hidden">
+        <div class="challenge-hebdo">
+            <div class="last-challenge">
+                <div class="last-challenge-header">
+                    <h3 class="last-challenge-title" >Dernier défi</h3>
+                    <p class="last-challenger-percent">+1% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Salut !</h4>
+                    <p class="last-challenge-text-paragraph">Ton défi du jour personnel si tu l’acceptes est de dire bonjour à un ou une inconnue dans la rue.</p>
+                    <p class="how-much">90% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="hebdo-box">
+                <div class="last-challenge-header">
+                    <h3 class="hebdo-challenge-title" >Il y a 7 jours</h3>
+                    <p class="last-challenger-percent">+7% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Kickstarter</h4>
+                    <p class="last-challenge-text-paragraph">Lance un kickstarter avec un objectif de 300 € sur le sujet de ton choix.</p>
+                    <p class="how-much">67% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="hebdo-box">
+                <div class="last-challenge-header">
+                    <h3 class="hebdo-challenge-title" >Il y a 7 jours</h3>
+                    <p class="last-challenger-percent">+7% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Kickstarter</h4>
+                    <p class="last-challenge-text-paragraph">Lance un kickstarter avec un objectif de 300 € sur le sujet de ton choix.</p>
+                    <p class="how-much">67% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="hebdo-box">
+                <div class="last-challenge-header">
+                    <h3 class="hebdo-challenge-title" >Il y a 7 jours</h3>
+                    <p class="last-challenger-percent">+7% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Kickstarter</h4>
+                    <p class="last-challenge-text-paragraph">Lance un kickstarter avec un objectif de 300 € sur le sujet de ton choix.</p>
+                    <p class="how-much">67% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="hebdo-box">
+                <div class="last-challenge-header">
+                    <h3 class="hebdo-challenge-title" >Il y a 7 jours</h3>
+                    <p class="last-challenger-percent">+7% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Kickstarter</h4>
+                    <p class="last-challenge-text-paragraph">Lance un kickstarter avec un objectif de 300 € sur le sujet de ton choix.</p>
+                    <p class="how-much">67% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="hebdo-box">
+                <div class="last-challenge-header">
+                    <h3 class="hebdo-challenge-title" >Il y a 7 jours</h3>
+                    <p class="last-challenger-percent">+7% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Kickstarter</h4>
+                    <p class="last-challenge-text-paragraph">Lance un kickstarter avec un objectif de 300 € sur le sujet de ton choix.</p>
+                    <p class="how-much">67% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="hebdo-box">
+                <div class="last-challenge-header">
+                    <h3 class="hebdo-challenge-title" >Il y a 7 jours</h3>
+                    <p class="last-challenger-percent">+7% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Kickstarter</h4>
+                    <p class="last-challenge-text-paragraph">Lance un kickstarter avec un objectif de 300 € sur le sujet de ton choix.</p>
+                    <p class="how-much">67% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="hebdo-box">
+                <div class="last-challenge-header">
+                    <h3 class="hebdo-challenge-title" >Il y a 7 jours</h3>
+                    <p class="last-challenger-percent">+7% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Kickstarter</h4>
+                    <p class="last-challenge-text-paragraph">Lance un kickstarter avec un objectif de 300 € sur le sujet de ton choix.</p>
+                    <p class="how-much">67% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="hebdo-box">
+                <div class="last-challenge-header">
+                    <h3 class="hebdo-challenge-title" >Il y a 7 jours</h3>
+                    <p class="last-challenger-percent">+7% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Kickstarter</h4>
+                    <p class="last-challenge-text-paragraph">Lance un kickstarter avec un objectif de 300 € sur le sujet de ton choix.</p>
+                    <p class="how-much">67% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+            <div class="hebdo-box">
+                <div class="last-challenge-header">
+                    <h3 class="hebdo-challenge-title" >Il y a 7 jours</h3>
+                    <p class="last-challenger-percent">+7% d’audace</p>
+                </div>
+                <img class="last-challenge-badge" src="./Assets/Badge/icone_badge/girl_super_wommen.svg" alt="girl_super_wommen">
+                <div class="last-challenge-text">
+                    <h4 class="last-challenge-text-title">Kickstarter</h4>
+                    <p class="last-challenge-text-paragraph">Lance un kickstarter avec un objectif de 300 € sur le sujet de ton choix.</p>
+                    <p class="how-much">67% des wonders ont réussi ce défi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/challenge.js"></script>
+    </body>
+</html>

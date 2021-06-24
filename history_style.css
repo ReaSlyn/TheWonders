@@ -1,0 +1,330 @@
+/* TOP NAV BAR */
+
+.top-bar {
+    max-width: 100vw;
+    height: 8.36vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    background-color: #EEDFB7;
+}
+
+.title-nav {
+    font-family: "Barlow Condensed", Times, serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.title-div {
+    widows: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected {
+    background-color: #FF92C6;
+}
+
+
+/*============= 
+
+    LEVELING 
+
+=============*/
+
+.leveling {
+    width: 100vw;
+    height: 15.84vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress_barre {
+    border-radius: 50px;
+    width: 311px;
+    height: 24px;
+    margin-bottom: 16px;
+    margin-top: 32px;
+    border: #973FBD solid 3px;
+    position: relative;
+}
+
+.bar {
+    border-radius: 50px;
+    width: 28%;
+    height: 24px;
+}
+
+.badge_barre_1 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 200%;
+}
+
+.badge_barre_2 {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 230%;
+}
+
+.badge_barre_3 {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 200%;
+}
+
+.daring {
+    font-family: "Barlow Condensed";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+
+}
+
+/* ======================
+
+        Menu
+
+=======================*/
+
+.hidden {
+    display: none;
+}
+
+/* ======================
+
+    Challenge History 
+
+=======================*/
+
+.challenge-history {
+    display: grid;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Last-Challenge Last-Challenge";
+    height: 100vh;
+  }
+  
+.last-challenge { 
+    background-color: #EEDFB7;
+    widows: 100vw;
+    height: 100%;
+    grid-area: Last-Challenge;
+}
+
+.last-challenge-text {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.last-challenge-header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.last-challenge-title {
+    font-family: "Barlow Condensed";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF92C6;
+}
+
+.last-challenger-percent {
+
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.last-challenge-badge {
+    float: left;
+}
+
+.last-challenge-text-title {
+    font-family: "Barlow Condensed";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.last-challenge-text-paragraph {
+    font-family: "Barlow Condensed";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.how-much {
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/*============== 
+
+Challenge Box
+
+==============*/
+
+
+.challenge-box {
+    width: 184px;
+    height: 100%;
+    background-color: #EEDFB7;
+}
+
+.challenge-box-title {
+    font-family: "Barlow Condensed";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 8px;
+    padding-left:16px;
+}
+
+.challenge-box-text {
+    height: 60px;
+    font-family: "Barlow Condensed";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+    padding-left:16px;
+}
+.challenge-box-badge {
+    width: 60px;
+    height: 70px;
+    float: right;
+    object-fit: cover;
+}
+
+.challenge-box-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.challenge-box-percent {
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.challenge-box-day {
+    font-family: "Barlow Condensed";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #798B22;
+}
+
+.challenge-duo {
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #798B22;
+}
+
+.lc-title-duo {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.challenge-box-footer-duo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+
+/* 
+
+
+    Challenge Hebdo
+
+
+*/
+
+.challenge-hebdo {
+    display: grid;
+    grid-template-rows: 148px;
+    grid-auto-rows: 148px;
+
+    gap: 10px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "Last-Challenge";
+  }
+  
+.hebdo-box { 
+    height: 148px;
+    background-color: #EEDFB7;
+    widows: 100vw;
+    height: 100%;
+}
+
+.hebdo-challenge-title {
+    font-family: "Barlow Condensed";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #798B22;
+}
