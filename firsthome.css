@@ -1,0 +1,214 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+#fivegirls {
+    margin-top: 16px; 
+    margin-left: 8px;
+    width: 51vw;
+    height: auto;
+    max-width: 192px;
+    margin-bottom: 16px;
+}
+
+#motivation {
+    width: 38.3vw;
+    margin-top: 16px;   
+}
+
+#motivation > * {
+    margin-bottom: 4px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.join_desc {
+    width: 38.30vw;
+}
+
+#planning {
+    width: 50%;
+    height: auto;
+    max-height: 168px;
+}
+
+#title_planning {
+    margin-top: 12px;
+}
+
+#planning > * {
+    margin-left: 32px;
+}
+
+#hour {
+    margin-left: 64px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+#woman {
+    overflow: hidden;
+    position: absolute;
+    max-height: 168px;
+    width: 50%;
+    height: auto;
+    z-index: -1;
+}
+
+#woman img {
+    margin: 0px 0px 0px -90px;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-height: 168px;
+    height: auto;
+}
+
+#wonders_project {
+    text-align: right;
+    margin-right: 32px;
+    margin-top: 56px;
+}
+
+#discover {
+    margin-top: 4px;
+    margin-right: 32px;
+    float: right;
+}
+
+#daily {
+    width: 100%
+}
+
+#daily > * {
+    margin-left: 32px;
+    margin-top: 8px;
+}
+
+#daily :nth-child(1){
+    margin-top: 8px;
+}
+
+#daily :nth-child(2){
+    margin-right: 32px;
+}
+
+.title_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_section > img {
+    margin-top: 8px;
+}
+
+#dream {
+    position: absolute;
+    margin-left: 58.3vw;
+    margin-top: 40px;
+    max-width: 157px;
+    max-height: 294px;
+    width: 41.75vw;
+    height: 36.20vh;
+}
+
+.defi_desc {
+    width: 61.70vw;
+}
+
+#validate {
+    margin-bottom: 16px;
+}
+
+#podcast {
+    width: 100%;
+    z-index: 1;
+    padding-bottom: 16px;
+}
+
+#podcast > * {
+    margin-left: 32px;
+}
+
+#podcast :nth-child(1){
+    margin-top: 8px;
+}
+
+#podcast :nth-child(2){
+    margin-right: 32px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+div.column {
+    overflow: hidden;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.column > * {
+    margin-top: 8px;
+}
+
+#instagram {
+    width: 100%;
+    height: 245px;
+}
+
+#instagram > * {
+    margin-left: 32px;
+    margin-top: 8px;
+}
+
+#instagram :nth-child(1) p {
+    margin-top: 8px;
+}
+
+#instagram_logo {
+    margin-right: 32px;
+}
+
+#instafeed {
+    display: flex;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#instafeed img {
+    width: 112px;
+    margin-right: 8px;
+}
+
+#instafeed::-webkit-scrollbar {
+    display: none;
+}
+
+#discover_insta {
+    float: right;
+    margin-right: 32px;
+}

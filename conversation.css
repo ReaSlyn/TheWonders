@@ -1,0 +1,103 @@
+nav {
+    background-color: #0625BA;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+#flex_nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 16px;
+    align-items: center;
+    height: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#flex_nav .top p {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Assets/Conversation/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.down {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding: 4px;
+}
+
+.search img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.search img:last-child {
+    margin-right: 0;
+}
+
+.line {
+    height: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.top p {
+    margin: 8px;
+    margin-bottom: 0;
+}
+
+.barre {
+    height: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.bolck_convesation {
+    display: grid;
+    grid-template-columns: 72px auto auto;
+    grid-template-rows: auto auto;
+    gap: 8px 8px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "photo name date"
+      "photo text text";
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.photo { grid-area: photo; }
+.name { grid-area: name; }
+.date {
+    grid-area: date;
+    display: flex;
+    justify-content: flex-end;
+}
+.text { grid-area: text; }

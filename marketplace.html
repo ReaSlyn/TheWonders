@@ -1,0 +1,171 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Marketplace</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="marketplace.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Footer-->
+        <div id="footer"></div>
+        <script>$("#footer").load("footer.html");</script>
+
+        <!--Navbar-->
+        <nav>
+            <div id="flex_nav">
+                <img src="Assets/Navbar/back.svg" onclick="history.back()">
+                <p class="h4 bold c_white blacker_extra">Marketplace</p>
+                <img src="Assets/Navbar/cart.svg">
+            </div>
+        </nav>
+
+        <!--Content-->
+        <div class="container">
+            <div class="search">
+                <div class="search_barre b_grey6">
+                    <img src="/Assets/marketplace/search.svg" alt="">
+                    <p class="h5 c_black">Chercher</p>
+                </div>
+                <img src="/Assets/Marketplace/filtre.svg" alt="">
+            </div>
+            <div class="filtre">
+                <p class="h5 c_black b_grey6">goodies</p>
+                <p class="h5 c_black b_grey6">books</p>
+                <p class="h5 c_black b_grey6">finance</p>
+            </div>
+            <div class="barre b_blue"></div>
+            <div class="liste_produit">
+                <div class="block_produit produit_1">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_1.svg" alt="">
+                        <p class="c_white h3">Lorine Castier</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">63€ <span class="h5">/h</span></p>
+                        <p class="b_blue c_white h5">Motivation</p>
+                    </div>
+                </div>
+                <div class="block_produit produit_2">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_2.svg" alt="">
+                        <p class="c_white h3">T-shirt femme</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">35€</p>
+                        <p class="b_blue c_white h5">Marketing</p>
+                    </div>
+                </div>
+                <div class="block_produit produit_3">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_4.svg" alt="">
+                        <p class="c_white h3">Cour anglais</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">40€ <span class="h5">/h</span></p>
+                        <p class="b_blue c_white h5">Anglais</p>
+                    </div>
+                </div>
+                <div class="block_produit produit_4">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_3.svg" alt="">
+                        <p class="c_white h3">Charlote Fontaine</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">47€ <span class="h5">/h</span></p>
+                        <p class="b_blue c_white h5">Motivation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="b_yellow see_more">
+                <p class="h5 c_blue">Afficher plus</p>
+                <img src="/Assets/Marketplace/arrow_right.svg" alt="">
+            </div>
+            <div class="liste_produit_categorie">
+                <div class="categorie">
+                    <p class="c_red h3">Coachs</p>
+                    <div class="line b_red"></div>
+                </div>
+                <div class="block_produit produit_1">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_1.svg" alt="">
+                        <p class="c_white h3">Lorine Castier</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">63€ <span class="h5">/h</span></p>
+                        <p class="b_blue c_white h5">Motivation</p>
+                    </div>
+                </div>
+                <div class="block_produit produit_2">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_3.svg" alt="">
+                        <p class="c_white h3">T-shirt femme</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">22,99€</p>
+                        <p class="b_blue c_white h5">T-shirt</p>
+                    </div>
+                </div>
+            </div>
+            <div class="liste_produit_categorie">
+                <div class="categorie">
+                    <p class="c_red h3">Cours</p>
+                    <div class="line b_red"></div>
+                </div>
+                <div class="block_produit produit_1">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_5.svg" alt="">
+                        <p class="c_white h3">Cour marketing</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">40€ <span class="h5">/h</span></p>
+                        <p class="b_blue c_white h5">Anglais</p>
+                    </div>
+                </div>
+                <div class="block_produit produit_2">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_4.svg" alt="">
+                        <p class="c_white h3">Cours anglais</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">40€ <span class="h5">/h</span></p>
+                        <p class="b_blue c_white h5">Marketing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="liste_produit_categorie">
+                <div class="categorie">
+                    <p class="c_red h3">Goodies</p>
+                    <div class="line b_red"></div>
+                </div>
+                <div class="block_produit produit_1">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_6.svg" alt="">
+                        <p class="c_white h3">Mug</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">11,99€</span></p>
+                        <p class="b_blue c_white h5">Mug</p>
+                    </div>
+                </div>
+                <div class="block_produit produit_2">
+                    <div class="image_produit">
+                        <img src="/Assets/Marketplace/photo_produit/image_marketplace_2.svg" alt="">
+                        <p class="c_white h3">T-shirt femme</p>
+                    </div>
+                    <div class="info_produit">
+                        <p class="h4 c_green">22,99€</p>
+                        <p class="b_blue c_white h5">T-shirt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

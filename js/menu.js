@@ -8,8 +8,8 @@ menu_button.addEventListener('click', () => {
     menu_button.classList.add('open');
     menu.classList.add('active');
     blur.classList.add('active');
-    menu.classList.remove('close');
-    blur.classList.remove('close');
+    menu.classList.remove('closed');
+    blur.classList.remove('closed');
     menuOpen = true;
   }});
 
@@ -18,8 +18,8 @@ close_button.addEventListener('click', () => {
     menu_button.classList.remove('open');
     menu.classList.remove('active');
     blur.classList.remove('active');
-    menu.classList.add('close');
-    blur.classList.add('close');
+    menu.classList.add('closed');
+    blur.classList.add('closed');
     menuOpen = false;
   }
 });
@@ -29,8 +29,8 @@ blur.addEventListener('click', () => {
     menu_button.classList.remove('open');
     menu.classList.remove('active');
     blur.classList.remove('active');
-    menu.classList.add('close');
-    blur.classList.add('close');
+    menu.classList.add('closed');
+    blur.classList.add('closed');
     menuOpen = false;
   }
 });

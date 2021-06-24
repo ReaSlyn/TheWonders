@@ -116,7 +116,7 @@ body {
     grid-auto-flow: row;
     grid-template-areas:
       "Last-Challenge Last-Challenge";
-    height: 100vh;
+    grid-auto-rows: 144px;
   }
   
 .last-challenge { 

@@ -96,7 +96,7 @@ nav {
     visibility: visible;
 }
 
-#blur.close {
+#blur.closed {
     animation-name: blurslideout;
     animation-duration: 0.5s;
 }
@@ -116,7 +116,7 @@ nav {
     visibility: visible;
 }
 
-#modal.close {
+#modal.closed {
     animation-name: modalslideout;
     animation-duration: 0.5s;
 }
