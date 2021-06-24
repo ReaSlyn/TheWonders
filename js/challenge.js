@@ -5,7 +5,6 @@ const hebdo = document.querySelector(".hebdo")
 
 menu_element.forEach(element => {
     element.addEventListener("click", (e) => {
-        let menu = element.outerText.toLowerCase();
 
         menu_element.forEach(element => {
             if(element.classList.contains("selected")) {

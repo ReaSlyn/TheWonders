@@ -113,7 +113,7 @@
     visibility: visible;
 }
 
-#popup {
+#popup_1 {
     visibility: hidden;
     position: fixed;
     margin: auto;
@@ -130,16 +130,16 @@
     background-position: left bottom;
 }
 
-#popup.active {
+#popup_1.active {
     visibility: visible;
 }
 
-#popup > div {
+#popup_1 > div {
     display: flex;
     flex-direction: column;
 }
 
-#popup .title {
+#popup_1 .title {
     width: 220px;
     margin-left: auto;
     margin-right: auto;
@@ -147,20 +147,73 @@
     margin-bottom: 20px;
 }
 
-#popup .right {
+#popup_1 .right {
     text-align: right;
     margin-right: 16px;
     margin-bottom: 8px;
 }
 
-#popup button {
+#popup_1 button {
     position: absolute;
     padding: 10px 5px;
     bottom: 8px;
     right: 8px;
 }
 
-#popup img {
+#popup_1 img {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+#popup_2 {
+    visibility: hidden;
+    position: fixed;
+    margin: auto;
+    margin-top: 50vh;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    height: 100vh;
+    width: 310px;
+    height: 310px;
+    background-image: url(Assets/Popup/audace.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+#popup_2.active {
+    visibility: visible;
+}
+
+#popup_2 > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#popup_2 .title {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+#popup_2 .right {
+    text-align: right;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+
+#popup_2 button {
+    position: absolute;
+    padding: 10px 5px;
+    bottom: 8px;
+    right: 8px;
+}
+
+#popup_2 img {
     position: absolute;
     top: 8px;
     right: 8px;

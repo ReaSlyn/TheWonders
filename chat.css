@@ -121,3 +121,12 @@ nav {
     height: 32px;
     margin-right: 8px;
 }
+
+input {
+    border: none;
+    margin-left: 8px;
+}
+
+input::placeholder {
+    color: #FAFAFA;
+}

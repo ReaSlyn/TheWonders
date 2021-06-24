@@ -38,7 +38,7 @@
                     </p>
                     <img src="Assets/Defi/chrono.svg">
                 </div>
-                <button class="h4 b_green c_white button bold popup_button">
+                <button id="button_1" class="h4 b_green c_white button bold">
                     Valider mon défi
                 </button>
             </div>
@@ -74,7 +74,7 @@
                     </p>
                     <img src="Assets/Defi/chrono.svg">
                 </div>
-                <button class="h4 b_yellow c_white button bold" onclick="location.href='home.html';">
+                <button id="button_2" class="h4 b_yellow c_white button bold">
                     Commencer
                 </button>
             </div>
@@ -83,7 +83,7 @@
             </button>
         </div>
         <div id="blur_popup" class="b_black"></div>
-        <div id="popup" class="b_red c_white">
+        <div id="popup_1" class="b_red c_white">
             <div>
                 <p class="h4 center title">7 nouveaux défis quotidiens à débloquer</p>
                 <p class="right h5">1 défi hebdomadaire</p>
@@ -92,8 +92,21 @@
             <button class="h4 b_black c_white" onclick="location.href='create_profil.html';">
                 Inscrivez-vous
             </button>
-            <img class="close" src="Assets/Popup/close.svg">
+            <img class="close_1" src="Assets/Popup/close.svg">
         </div>
-        <script src="js/popup.js"></script>
+        <div id="popup_2" class="b_purple c_white">
+            <div>
+                <p class="h4 center title">Félicitation tu as dépassé les 50 points d’audace</p>
+                <p class="right h5">Crée des défis</p>
+                <p class="right h5">Note les idées<br>de défis</p>
+            </div>
+            <button class="h4 b_yellow c_white blacker_extra" onclick="location.href='create_profil.html';">
+                LES DÉFIS
+            </button>
+            <img class="close_2" src="Assets/Popup/close.svg">
+        </div>
+
+        <!-- Script -->
+        <script src="js/popup_double.js"></script>
     </body>
 </html>
