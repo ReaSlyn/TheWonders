@@ -138,14 +138,6 @@ body {
     }
 }
 
-/* PRESENTATIOM */
-
-/* .Presentation {
-    display: flex;
-    flex-direction: row;
-    width: 500vw;
-} */
-
 .Presentation1, .Presentation2, .Presentation3, .Presentation4, .Presentation5{
     position: relative;
     width: 100%;
