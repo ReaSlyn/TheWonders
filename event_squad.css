@@ -1,0 +1,77 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top > * {
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+.squad {
+    display: flex;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    margin-bottom: 16px;
+}
+
+.squad > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.squad p {
+    margin-top: -8px;;
+}
+
+.mid {
+    margin: 16px 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mid > div > p {
+    margin-bottom: 8px;
+}
+
+.bot > div > div > p {
+    margin-bottom: 8px;
+}
+
+.mid img + p {
+    margin-top: 25px;
+}
+
+.bot {
+    display: grid;
+    grid-template-columns: 1fr 18px 1fr;
+    padding: 16px 32px;
+}
+
+.bot > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bot > div > :first-child {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+button {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.vertical_line {
+    width: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
+}

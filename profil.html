@@ -1,0 +1,100 @@
+<!--Template d'une page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Profil</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="preset.css">
+        <link rel="stylesheet" type="text/css" href="profil.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <!--Footer-->
+        <div id="footer"></div>
+        <script>$("#footer").load("footer.html");</script>
+
+        <!--Navbar-->
+        <div id="navbar"></div>
+        <script>$("#navbar").load("navbar.html");</script>
+
+        <!--Content-->
+        <div class="container">
+            <img class="background_profil" src="/Assets/Profil/profil.svg" alt="">
+            <div class="top_profil">
+                <img class="background_profil" id="background_profil" src="/Assets/Profil/profil.svg" alt="">
+                <img id="cadre_profil" src="/Assets/Profil/harmonieus.svg" alt="">
+            </div>
+            <div class="container_profil b_white">
+                <p class="h1 c_black name" style="margin-top: 32px;">Chasse Aurore</p>
+                <p class="h3 c_black age">21 ans</p>
+                <div class="progress_barre b_pink">
+                    <div class="bar b_red"></div>
+                    <img class="badge_barre_1" src="/Assets/Badge/1.svg" alt="">
+                    <img class="badge_barre_2" src="/Assets/Badge/2.svg" alt="">
+                    <img class="badge_barre_3" src="/Assets/Badge/3.svg" alt="">
+                </div>
+                <p class="h4 c_yellow" style="font-weight: 700;">Taux d’audace : 28%</p>
+                <div class="barre b_blue"></div>
+                <p class="h4 c_black" style="text-align: center; margin-bottom: 8px;">Jeune entrepreneuse en recherche de défis et de changements...</p>
+                <p class="h5 c_yellow" style="font-weight: 700;">Voir plus</p>
+                <div class="defi_profil">
+                    <p class="h3 c_red">Défis</p>
+                    <p class="h3 c_red">11</p>
+                </div>
+                <p class="h5 c_yellow defi_profil_voir" style="font-weight: 700;">Voir tout</p>
+                <div class="defi_image">
+                    <img class="defi_1" src="/Assets/Profil/defi/defi_1.svg">
+                    <img class="defi_2" src="/Assets/Profil/defi/defi_2.svg">
+                    <img class="defi_3" src="/Assets/Profil/defi/defi_3.svg">
+                    <img class="defi_4" src="/Assets/Profil/defi/defi_4.svg">
+                    <img class="defi_5" src="/Assets/Profil/defi/defi_5.svg">
+                    <img class="defi_6" src="/Assets/Profil/defi/defi_6.svg">
+                </div>
+                <div class="defi_score">
+                    <p class="h5 c_white b_yellow bold">Défis quotidien</p>
+                    <p class="h5 c_yellow bold">23 / 365</p>
+                </div>
+                <div class="defi_score">
+                    <p class="h5 c_white b_red bold">Défis hebdomadaire</p>
+                    <p class="h5 c_red bold">3 / 56</p>
+                </div>
+                <div class="defi_score">
+                    <p class="h5 c_white b_purple bold">Défis WONDERS</p>
+                    <p class="h5 c_purple bold">4 / 12</p>
+                </div>
+                <div class="gif_profil">
+                    <p class="h3 c_red">Gif</p>
+                    <div class="add_gif_block">
+                        <img class="add_gif_1" src="/Assets/Profil/gift_2.svg" alt="">
+                        <img class="add_gif_2" src="/Assets/Profil/gift_1.svg" alt="">
+                    </div>
+                </div>
+                <div class="reseaux">
+                    <div class="faceboock block">
+                        <img class="icon faceboock_icon" src="/Assets/Profil/icone_reseaux/facebook.svg" alt="">
+                        <p class="h5 bold">Aurore Chasse</p>
+                    </div>
+                    <div class="linkedin block">
+                        <img class="icon linkedin_icon" src="/Assets/Profil/icone_reseaux/linkedin.svg" alt="">
+                        <p class="h5 bold">linkedin.com/in/aurore-chasse-71a63dr</p>
+                    </div>
+                    <div class="instagram block">
+                        <img class="icon instagram_icon" src="/Assets/Profil/icone_reseaux/intagram.svg" alt="">
+                        <p class="h5 bold">Aurore.chs</p>
+                    </div>
+                    <div class="twitter block">
+                        <img class="icon twitter_icon" src="/Assets/Profil/icone_reseaux/twitter.svg" alt="">
+                        <p class="h5 bold">@AChasse</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </body>
+</html>

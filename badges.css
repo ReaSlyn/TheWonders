@@ -53,7 +53,7 @@ body {
 
 .bar {
     border-radius: 50px;
-    width: 30%;
+    width: 28%;
     height: 24px;
 }
 
@@ -96,7 +96,7 @@ body {
 .badge_2 { grid-area: badge_2; }
 .badge_3 { grid-area: badge_3; }
 .badge_4 { grid-area: badge_4; }
-.badge_5 { grid-area: badge_5; }
+.badge_5 { grid-area: badge_5; margin-top: auto; margin-bottom: auto;}
 .badge_6 { grid-area: badge_6; }
 .badge_7 { grid-area: badge_7; }
 .badge_8 { grid-area: badge_8; }
