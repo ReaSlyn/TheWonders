@@ -1,3 +1,3 @@
 # TheWonders
 
-Project deployed on https://reaslyn.github.io/TheWonders/
+Mobile web app for TheWonders deployed on https://reaslyn.github.io/TheWonders/
